@@ -3,7 +3,7 @@
 # Projects 
 
   # Python - Cocktail Drink Information
-In this program , I utlized an API that provided information on 500+ drinks, from there I developed code to pull-out Drinks from the cocktail Dictionary by using Keys to get the respective values. This program, provides the inputted drink's ingredients and recipes with the appropriate measurements and instructions.
+In this program , I utlized an API that provided information on 500+ drinks, from there I developed code to pull-out drinks from the cocktail Dictionary by using Keys to get their respective values. This program, provides the inputted drink's ingredients and recipe with the appropriate measurements and instruction.
 
   # Python - Artist Recommender 
 In this project, I used the musicgraph Api to pull information on popular artists based on total followers, popularity, and genre to provide possible recommendations the user might like. This then outputs, a visual providing information on why this artist was chosen. 
