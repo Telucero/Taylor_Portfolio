@@ -1,12 +1,11 @@
-# Portfolio
-This is a current portfolio of academic and personal projects.
+
 
 # Projects 
 
-# Python - Cocktail Drink Information
+  # Python - Cocktail Drink Information
 In this program , I utlized an API that provided information on 500+ drinks, from there I developed code to pull-out Drinks from the cocktail Dictionary by using Keys to get the respective values. This program, provides the inputted drink's ingredients and recipes with the appropriate measurements and instructions.
 
-# Python - Artist Recommender 
+  # Python - Artist Recommender 
 In this project, I used the musicgraph Api to pull information on popular artists based on total followers, popularity, and genre to provide possible recommendations the user might like. This then outputs, a visual providing information on why this artist was chosen. 
   
     # Modules Used: 
@@ -29,7 +28,7 @@ This was my favorite project to work on, where I analyzed customer data looking 
     readr 
     ggplot2
     
-# Supervised Machine Learning | R : Predicting Customer Churn - Telco 
+  # Supervised Machine Learning | R : Predicting Customer Churn - Telco 
 This project was completed to further my understanding and practice with Data & Data Science. This project focused on Supervised Machine Learning with  Decision Tree Classification, to predict customer churn. After a thorough Analysis a Predective model was developed, trained, and pruned to refine model to best fit the entire customer population, instead of overfitting the model to the Training and Test data. This Project includes Documented Information on understanding the analysis and the R code developed for the project.
 
     #Packages:
@@ -42,7 +41,7 @@ This project was completed to further my understanding and practice with Data & 
     yardstick
 
   
- # Haskell Files 
+   # Haskell Files 
 Understanding Haskell after I learned Python was difficult but some of the skills and general concepts are transferable from python but would take a bit more code to get across since Haskell is a compiled langauge. These Files include my work with Algebraic Data types, Anonymous Functions, Trees, IO, and Turing machines. There are a few skills that are sprinkled throughout these works like List Comprehension, Nested Functions, and Loops. Each Folder contains the necessary files to run the full programs, for example the defined data types constructed for the game.
  
  
