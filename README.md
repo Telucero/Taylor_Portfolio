@@ -3,7 +3,7 @@
 # Projects 
 
   # Python - Cocktail Drink Information
-In this program, I utlized an API that provided information on 500+ drinks, from there I developed code to pull-out drinks from the cocktail Dictionary by using Keys to get their respective values. This program, provides the inputted drink's ingredients and recipe with the appropriate measurements and instruction.
+In this program, I utilized an API that provided information on 500+ drinks, from there I developed code to pull-out drinks from the cocktail Dictionary by using Keys to get their respective values. This program provides the inputted drink's ingredients and recipe with the appropriate measurements and instruction.
 
   # Python - Artist Recommender 
 In this project, I used the musicgraph API to pull information on popular artists based on total followers, popularity, and genre to provide possible recommendations the user might like. This then outputs a visual providing information on why this artist was chosen. 
@@ -40,7 +40,6 @@ This project was completed to further my understanding and practice with Data & 
     caret 
     yardstick
 
-  
    # Haskell Files 
 Understanding Haskell after I learned Python was difficult but some of the skills and general concepts are transferable from python. It would take a bit more code to get across since Haskell is a compiled langauge. These files include my work with Algebraic Data types, Anonymous Functions, Trees, IO, and Turing Machines. There are a few skills that are sprinkled throughout these works like List Comprehension, Nested Functions, and Loops. Each folder contains the necessary files to run the full programs, for example the defined data types constructed for the game.
  
