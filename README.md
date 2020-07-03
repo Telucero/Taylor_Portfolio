@@ -21,8 +21,8 @@ In this project, I used the musicgraph API to pull information on popular artist
 # SQL - Database Management
 In this project I managed a database for a client with a diverse array of sci-fi products. I first created tables and then based off a conceptual model built the relationship between them, these table are Project Transaction Part, Project part, Project Transaction, and Project Transaction Type. Next, I input the necessary values into each table, identifying Foriegn Keys and references along the way. At the end of this, I wrote queries to pull information based on conditionals, Joins, and Aggregate functions.
 
-# R Work Sample - Customer Flight Satisfaction 
-This was my favorite project. I analyzed customer data looking at Descriptive, Diganostic, and Prescriptive analytics to provide recommendations and reasoning towards low flight satisfaction for customers. While working on this project, I played around a lot when analyzing the statistics to identify important attributes to focus in on. There were a few steps in the process to recieve these recommendations; they were Data Cleansing, Data Munging, Data Manipulation, and Data Visualization. In the Data Visualization part, I used ggplot2 to make a world map showing flight paths based on identified low customer satisfaction levels. There are a lot of comments throughout this project to help keep stats documented as well as help orgnaze thought towards next steps. 
+# R - Customer Flight Satisfaction 
+This was my favorite project. I analyzed customer data focusing on Descriptive, Diagnostic, and Prescriptive analytics to provide recommendations and reasoning towards low flight satisfaction for customers. While working on this project, I played around a lot when analyzing the statistics to identify important attributes to focus in on. There were a few steps in the process to recieve these recommendations; they were Data Cleansing, Data Munging, Data Manipulation, and Data Visualization. In the Data Visualization part, I used ggplot2 to make a world map showing flight paths based on identified low customer satisfaction levels.
 
     #Packages:
     readr 
