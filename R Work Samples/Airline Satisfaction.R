@@ -5,13 +5,13 @@
 
 
 #set the directory where the data is stored
-getwd()
-setwd("/Users/TaylorLucero/Desktop")
+
 
 # read Lucero.csv file by using read_csv from the readr package
 library(readr)
-Flight_Data<- read_csv("Lucero.csv")
-View(Flight_Data)
+urlfile="https://raw.githubusercontent.com/Telucero/Portfolio/master/R%20Work%20Samples/AirlineCustomerInfo.csv"
+Flight_Data<- read_csv(url(urlfile))
+
 
 # Test for missing values with in the table with is.na
 #ex. air$Ozone[is.na(air$Ozone)]

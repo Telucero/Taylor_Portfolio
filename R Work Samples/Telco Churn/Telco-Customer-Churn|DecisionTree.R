@@ -2,12 +2,13 @@
 #Telco -Churn Rate : Predicting Customer Churn
 #Decision Tree
 library(readr)
-setwd("/Users/TaylorLucero/Desktop")
+urlfile="https://raw.githubusercontent.com/Telucero/Portfolio/master/R%20Work%20Samples/Telco%20Churn/Telco-Customer-Churn.csv"
+Data<-read_csv(url(urlfile))
+View(Data)
 
 
 ##Learning about the data 
 # There are 7043 instances with 21 variables | We are focusing on the Churn variable 
-Data<-read.csv("Telco-Customer-Churn.csv")
 str(Data)
 
 #Test to see if there are any missing values 
@@ -51,7 +52,7 @@ Data$MonthlyCharges <- as.numeric(Data$MonthlyCharges)
 Data$TotalCharges <-as.numeric(Data$TotalCharges)
 
 ## Look at the beta coefficients & t-values to determine variables 
-#that do not significantly predict the outcomes 
+#that are not statistically significant
 
 library("lm.beta")
 Churn.lm= lm (Churn ~., data = Data)
