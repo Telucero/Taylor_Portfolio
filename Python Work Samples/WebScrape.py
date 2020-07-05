@@ -29,14 +29,3 @@ Phone = re.compile('\(\d\d\d\) \d\d\d-\d\d\d\d')
 result = Phone.findall(Contact)
 print(result)
 
-
-#url1 = 'https://www.imdb.com/search/title/?count=100&groups=top_1000&sort=user_rating'
-#def get_page_contents(url1):
-    #page = requests.get(url1, headers={"Accept-Language": "en-US"})
-    #return bs4.BeautifulSoup(page.text, "html.parser")
-
-#soup = get_page_contents(url1)
-
-#movies = soup.findAll('h3', class_='lister-item-header')
-#titles = [movie.find('a').text for movie in movies]
-#print(titles)
