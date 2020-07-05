@@ -29,7 +29,7 @@ This was my favorite project. I analyzed customer data focusing on Descriptive, 
     ggplot2
     
   # Supervised Machine Learning | R : Predicting Customer Churn - Telco 
-This project was completed to further my understanding and practice with Data & Data Science. This project focused on Supervised Machine Learning with  Decision Tree Classification, to predict customer churn. After a thorough analysis, a Predective Model was developed, trained, and pruned to refine the model to best fit the entire customer population, instead of overfitting the model to the Training and Test data. This project includes Documented Information on understanding the analysis and the R code developed for the project.
+This project was completed to further my understanding and practice with Data & Data Science. This project focused on Supervised Machine Learning with  Decision Tree Classification, to predict customer churn. After a thorough analysis, a Predictive Model was developed, trained, and pruned to refine the model to best fit the entire customer population, instead of overfitting the model to the Training and Test data. This project includes Documented Information on understanding the analysis and the R code developed for the project.
 
     #Packages:
     readr
