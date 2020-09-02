@@ -28,8 +28,8 @@ This was my favorite project. I analyzed customer data focusing on Descriptive, 
     readr 
     ggplot2
     
-   ![](https://github.com/Telucero/Taylor_Portfolio/blob/master/images/Low%20Satisfaction%20Flight%20Paths.png)
-   ![](https://github.com/Telucero/Taylor_Portfolio/blob/master/images/Flight%20Paths:%20Satisfaction%20Levels%201%20%26%202.png)
+   ![](/images/Low%20Satisfaction%20Flight%20Paths.png)
+   ![](/images/Flight%20Paths:%20Satisfaction%20Levels%201%20%26%202.png)
    
 
 # [Supervised Machine Learning | R : Predicting Customer Churn - Telco](https://github.com/Telucero/Taylor_Portfolio/tree/master/R%20Work%20Samples/Telco%20Churn)
