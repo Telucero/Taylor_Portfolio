@@ -1,7 +1,3 @@
----
-layout: default
----
-{% include index.md %}
 
 <body>
     <h1> Hello World </h1>
