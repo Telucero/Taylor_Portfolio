@@ -1,7 +1,9 @@
 
-<<<<<<< HEAD:index.html
-  <body>
-=======
+---
+layout: default
+---
+
+{% include index.md %}
 
    <body>
 >>>>>>> 1067bbe54411335cbe98a38245a687c9b39d5d75:index.md
