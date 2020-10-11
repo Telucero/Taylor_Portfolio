@@ -1,5 +1,6 @@
 
 <body>
+<title> Taylor's Portfolio </title>
     <h1 id = "project_title"> Hello World </h1>
       <p> I'm hosted with Github pages. </p>
       <p>  # [Python - Cocktail Drink Information](https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Cocktail_Info.py)
