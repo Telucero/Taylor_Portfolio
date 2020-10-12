@@ -24,7 +24,7 @@ function closeNav() {
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <img src="img_snowtops.jpg" alt="Snow" style="width:100%">
   <a href="#">Home</a>
-  <a href="/Users/taylorlucero/Documents/GitHub/Taylor_Portfolio/About_index.md">About</a>
+  <a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/About_index.md">About</a>
   <a href="#">Resume</a>
   <a href="#">Projects</a>
   <a href="#">Contact</a>
