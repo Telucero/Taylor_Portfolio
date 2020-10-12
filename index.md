@@ -23,7 +23,7 @@ function closeNav() {
 
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
   <img class = "Container" src="https://github.com/Telucero/Taylor_Portfolio/blob/Web/Backups/images/00100dPORTRAIT_00100_BURST20181116154658328_COVER.jpg?raw=true" alt="Portrait" style="width:100%">
 
   <a href="#">Home</a>
