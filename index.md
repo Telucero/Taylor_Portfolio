@@ -29,12 +29,10 @@ function closeNav() {
 </div>
 
 <!-- Use any element to open the sidenav -->
-<span id = "OpenHover" onclick="openNav()">open</span>
+<span onclick="openNav()">open</span>
 
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 <div id="main">
-
-
 
 
 
