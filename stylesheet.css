@@ -75,6 +75,10 @@
   background-color: #555
 }*/
 
+#navOpen {
+  top: 200px;
+  background-color: #555 /* Light Black */
+}
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
