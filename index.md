@@ -25,11 +25,12 @@
 
       <h3><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Cocktail_Info.py"> Cocktail Informant </a></h3>
 
+<img class= project_Photo src="cocktail.jpeg" alt="Cocktail Photo">
       <p>
 
         In this program, I utilized an API that provided information on 500+ drinks, from there I developed code to pull-out drinks from the cocktail Dictionary by using Keys to get their respective values. This program provides the inputted drink's ingredients and recipe with the appropriate measurements and instruction. </p>
 
-      <h3><a> href="https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Artist%20Recommender.py"> Artist Recommender </a></h3>
+      <h3><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Artist%20Recommender.py"> Artist Recommender </a></h3>
 
       <p>
         In this project, I used the Musicgraph API to pull information on popular artists based on total followers, popularity, and genre to provide possible recommendations the user might like. This then outputs a visual providing information on why this artist was chosen.
