@@ -29,7 +29,8 @@
 
         <a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/R%20Work%20Samples/Airline%20Satisfaction.R">
                 <img alt="LowSatisfaction" src= https://github.com/Telucero/Taylor_Portfolio/blob/master/images/Low%20Satisfaction%20Flight%20Paths.png
-                width=150" height="70">
+                width=150 height=70>
+        </a>
 
            ![](/images/Low%20Satisfaction%20Flight%20Paths.png)
            ![](/images/Flight%20Paths:%20Satisfaction%20Levels%201%20%26%202.png)
