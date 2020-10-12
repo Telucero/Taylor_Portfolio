@@ -75,10 +75,6 @@
   background-color: #555
 }*/
 
-#mySidenav a:hover {
-  left: 0; /* On mouse-over, make the elements appear as they should */
-}
-
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
