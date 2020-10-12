@@ -51,8 +51,6 @@
 /* resize image in Container */
 img.Container {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 8px;
   width: 100%;
 }
