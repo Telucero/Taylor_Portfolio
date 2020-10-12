@@ -28,8 +28,8 @@
       </p>
 
         <a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/R%20Work%20Samples/Airline%20Satisfaction.R">
-                <img alt="LowSatisfaction" src= https://github.com/Telucero/Taylor_Portfolio/blob/master/images/Low%20Satisfaction%20Flight%20Paths.png
-                width=150 height=70>
+                <img alt="LowSatisfaction" src= "https://github.com/Telucero/Taylor_Portfolio/blob/master/images/Low%20Satisfaction%20Flight%20Paths.png"
+                width="150" height="70">
         </a>
 
            ![](/images/Low%20Satisfaction%20Flight%20Paths.png)
