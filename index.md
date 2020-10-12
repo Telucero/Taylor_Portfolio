@@ -7,7 +7,7 @@
 
 <script>
 
-document.getElementById("body").addEventListener("click", closeNav);
+document.getElementById().addEventListener("click", closeNav);
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
@@ -37,10 +37,7 @@ function closeNav() {
 
 <div>
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-  
-</body>
 
-<body id="body">
     <h1> Hello World </h1>
 
       <h3 id = "Cocktail_Informant"> Cocktail Informant </h3>
