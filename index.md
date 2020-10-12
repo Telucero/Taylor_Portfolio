@@ -23,7 +23,7 @@
 
     <h1> Hello World </h1>
 
-      <h3id = "Cocktail_Informant"><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Cocktail_Info.py"> Cocktail Informant </a></h3>
+      <h3><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Cocktail_Info.py"> Cocktail Informant </a></h3>
 
       <p>
 
