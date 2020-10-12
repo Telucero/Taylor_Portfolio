@@ -20,11 +20,13 @@ function closeNav() {
 </script>
 
 
-<<div id="mySidenav" class="sidenav">
+<div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <img src="img_snowtops.jpg" alt="Snow" style="width:100%">
+  <a href="#">Home</a>
   <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
+  <a href="#">Resume</a>
+  <a href="#">Projects</a>
   <a href="#">Contact</a>
 </div>
 
