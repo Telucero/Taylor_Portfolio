@@ -26,6 +26,26 @@
   <a href="Contact.html">Contact</a>
 </div>
 
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
 <h3>About me</h3>
 
+</body>
+<script>
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "275px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+
+document.getElementById('main').addEventListener('click', closeNav);
+
+</script>
 </body>
