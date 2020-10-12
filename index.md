@@ -26,12 +26,12 @@
       <h3><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Cocktail_Info.py"> Cocktail Informant </a></h3>
 
       <div class=project_Photo_container>
-      <img class= project_Photo src="cocktail.jpeg" alt="Cocktail Photo" content="img/html; charset=UTF-8; X-Content-Type-Options = nosniff" response header>
+      <img class= project_Photo src="https://github.com/Telucero/Taylor_Portfolio/blob/Web/Backups/images/Cocktail.jpeg?raw=true" alt="Cocktail Photo" content="img/html; charset=UTF-8; X-Content-Type-Options = nosniff" response header>
       </div>
 
       <p>
-
-        In this program, I utilized an API that provided information on 500+ drinks, from there I developed code to pull-out drinks from the cocktail Dictionary by using Keys to get their respective values. This program provides the inputted drink's ingredients and recipe with the appropriate measurements and instruction. </p>
+        In this program, I utilized an API that provided information on 500+ drinks, from there I developed code to pull-out drinks from the cocktail Dictionary by using Keys to get their respective values. This program provides the inputted drink's ingredients and recipe with the appropriate measurements and instruction.
+      </p>
 
       <h3><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Artist%20Recommender.py"> Artist Recommender </a></h3>
 
@@ -42,7 +42,6 @@
       <h3><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/SQL%20Work%20Sample.sql"> Database Management </a></h3>
 
       <p>
-
         In this project I managed a database for a client with a diverse array of sci-fi products. I first created tables and then based on a conceptual model built the relationship between them, these tables are Project Transaction Part, Project part, Project Transaction, and Project Transaction Type. Next, I input the necessary values into each table, identifying Foreign Keys and references along the way. At the end of this, I wrote queries to pull information based on conditionals, Joins, and Aggregate functions.
       </p>
 
