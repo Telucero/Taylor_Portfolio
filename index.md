@@ -15,16 +15,38 @@
   </div>
 </div> -->
 
-<!-- Load an icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- The sidebar -->
+
+<!-- Load an icon library
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+<!-- The sidebar
 <div class="sidebar">
   <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
   <a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a>
   <a href="#clients"><i class="fa fa-fw fa-user"></i> Clients</a>
   <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+</div>-->
+
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
 </div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">open</span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+
+
+
+
 
     <h1> Hello World </h1>
 
@@ -70,6 +92,7 @@
       </p>
 
 
-
+</div>
 </body>
+
 >>>>>>> 18acf08919cc2d12ff0e960b54a3fa98edf52cfd
