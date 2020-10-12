@@ -19,7 +19,7 @@
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
-<div id= "main"  style="height:100vh;">
+<div id= "main>
 
     <h1> Hello World </h1>
 
@@ -65,8 +65,6 @@
       <p> Haskell Files
         Understanding Haskell after I learned Python was difficult but some of the skills and general concepts are transferable from python. It would take a bit more code to get across since Haskell is a compiled language. These files include my work with Algebraic Data types, Anonymous Functions, Trees, IO, and Turing Machines. There are a few skills that are sprinkled throughout these works like List Comprehension, Nested Functions, and Loops. Each folder contains the necessary files to run the full programs, for example the defined data types constructed for the game.
       </p>
-
-
 </div>
 
 
