@@ -7,6 +7,8 @@
 
 <script>
 
+document.getElementById('main').addEventListener('click', closeNav);
+
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
@@ -19,15 +21,6 @@ function closeNav() {
   document.body.style.backgroundColor = "white";
 }
 
-document.querySelector('span#open_menu').addEventListener('click',
-function(){
-   openNav();
-})
-
-document.querySelector('. closebtn').addEventListener('click',
-function(){
-   closeNav();
-})
 
 </script>
 
