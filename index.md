@@ -24,7 +24,7 @@ function closeNav() {
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <img src="img_snowtops.jpg" alt="Snow" style="width:100%">
   <a href="#">Home</a>
-  <a href="#">About</a>
+  <a href="/Users/taylorlucero/Documents/GitHub/Taylor_Portfolio/About_index.md">About</a>
   <a href="#">Resume</a>
   <a href="#">Projects</a>
   <a href="#">Contact</a>
@@ -39,21 +39,23 @@ function closeNav() {
 
     <h1> Hello World </h1>
 
-
-      <p> I'm hosted with Github pages. </p>
-
       <h3 id = "Cocktail_Informant"> Cocktail Informant </h3>
+
       <p> (https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Cocktail_Info.py)
+
         In this program, I utilized an API that provided information on 500+ drinks, from there I developed code to pull-out drinks from the cocktail Dictionary by using Keys to get their respective values. This program provides the inputted drink's ingredients and recipe with the appropriate measurements and instruction. </p>
 
       <h3 id = "Artist_Recommender"> Artist Recommender </h3>
+
       <p> (https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Artist%20Recommender.py)
+
         In this project, I used the musicgraph API to pull information on popular artists based on total followers, popularity, and genre to provide possible recommendations the user might like. This then outputs a visual providing information on why this artist was chosen.
       </p>
 
       <h3 id = "Database_Management"> Database Management </h3>
 
       <p> (https://github.com/Telucero/Taylor_Portfolio/blob/master/SQL%20Work%20Sample.sql)
+
         In this project I managed a database for a client with a diverse array of sci-fi products. I first created tables and then based on a conceptual model built the relationship between them, these tables are Project Transaction Part, Project part, Project Transaction, and Project Transaction Type. Next, I input the necessary values into each table, identifying Foreign Keys and references along the way. At the end of this, I wrote queries to pull information based on conditionals, Joins,and Aggregate functions.
       </p>
 
