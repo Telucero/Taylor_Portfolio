@@ -6,3 +6,5 @@ theme: jekyll-theme-slate
        {{ site.title }}
    {% endif %}
 </title>
+title: myCustomTitle
+description: myCustomAndDetailedDescription
