@@ -45,7 +45,6 @@
 #Container {
     width: 200px;
     height: 120px;
-    text-align: center;
 }
 
 /* resize image in Container */
@@ -54,6 +53,5 @@ img.Container {
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
-  padding-right: 50px;
-    width: 100%;
+  text-align: center;
 }
