@@ -3,10 +3,11 @@
   <link rel="stylesheet" href="stylesheet.css">
 </head>
 
-<body>
+<body id "body">
 
 <script>
 
+document.getElementById("body").addEventListener("click", closeNav);
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
@@ -19,9 +20,6 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
   document.body.style.backgroundColor = "white";
 }
-
-var x = document.getElementById("mySidenav");
-x.addEventListener("click", closeNav);
 
 </script>
 
