@@ -30,7 +30,7 @@
 
     <img src= "https://github.com/Telucero/Taylor_Portfolio/blob/master/images/Flight%20Paths:%20Satisfaction%20Levels%201%20&%202.png?raw=true" alt="LowSatisfaction" content="img/html; charset=UTF-8; X-Content-Type-Options = nosniff" response header/>
 
-    <img src= "https://github.com/Telucero/Taylor_Portfolio/blob/master/images/Flight%20Paths:%20Satisfaction%20Levels%201%20%26%202.png" alt="LowSatisfaction"/>
+    <img src= "https://github.com/Telucero/Taylor_Portfolio/blob/master/images/Low%20Satisfaction%20Flight%20Paths.png?raw=true" alt="LowSatisfaction"/>
 
       <h3 id = "Supervised_Ml"> Predicting Customer Churn </h3>
 
