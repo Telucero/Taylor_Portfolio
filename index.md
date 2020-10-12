@@ -1,6 +1,11 @@
 
-<title> Taylor's Portfolio </title>
-
+<title>
+   {%if page.title %}
+       {{ page.title }}
+   {% else %}
+       {{ site.title = Taylor's Portfolio }}
+   {% endif %}
+</title>
 <body>
     <h1 id = "project_title"> Hello World </h1>
 
