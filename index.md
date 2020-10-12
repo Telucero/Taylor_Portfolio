@@ -26,7 +26,7 @@
       <h3><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Cocktail_Info.py"> Cocktail Informant </a></h3>
 
       <div class=project_Photo_container>
-      <img class= project_Photo src="cocktail.jpeg" alt="Cocktail Photo">
+      <img class= project_Photo src="cocktail.jpeg" alt="Cocktail Photo" content="img/html; charset=UTF-8; X-Content-Type-Options = nosniff" response header>
       </div>
 
       <p>
