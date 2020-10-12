@@ -43,7 +43,7 @@
 }
 
 #Container {
-    width: 500px;
+    width: 200px;
     height: 120px;
     text-align: center;
 }
@@ -52,5 +52,5 @@
 img.Container {
   display: block;
   border-radius: 8px;
-  width: 85%;
+  width: 100%;
 }
