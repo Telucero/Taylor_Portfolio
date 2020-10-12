@@ -41,3 +41,14 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+#Container {
+    width: 200px;
+    height: 120px;
+}
+
+/* resize image in Container */
+.Container img {
+    width: 100%;
+    height: auto;
+}
