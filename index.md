@@ -19,7 +19,7 @@
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
-<div id= "main>
+<div id= "main">
 
     <h1> Hello World </h1>
 
