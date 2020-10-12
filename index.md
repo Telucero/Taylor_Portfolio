@@ -35,8 +35,9 @@ function closeNav() {
   <a href="#">Contact</a>
 </div>
 
-<div id= "main">
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<div id= "main"  style="height:100vh;">
 
     <h1> Hello World </h1>
 
