@@ -25,10 +25,15 @@
 
       <p> [R - Customer Flight Satisfaction](https://github.com/Telucero/Taylor_Portfolio/blob/master/R%20Work%20Samples/Airline%20Satisfaction.R)
         This was my favorite project. I analyzed customer data focusing on Descriptive, Diagnostic, and Prescriptive analytics to provide recommendations and reasoning towards low flight satisfaction for customers. While working on this project, I played around a lot when analyzing the statistics to identify important attributes to focus in on. There were a few steps in the process to recieve these recommendations; they were Data Cleansing, Data Munging, Data Manipulation, and Data Visualization. In the Data Visualization part, I used ggplot2 to make a world map showing flight paths based on identified low customer satisfaction levels.
+      </p>
+
+        <a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/R%20Work%20Samples/Airline%20Satisfaction.R">
+                <img alt="LowSatisfaction" src= https://github.com/Telucero/Taylor_Portfolio/blob/master/images/Low%20Satisfaction%20Flight%20Paths.png
+                width=150" height="70">
 
            ![](/images/Low%20Satisfaction%20Flight%20Paths.png)
            ![](/images/Flight%20Paths:%20Satisfaction%20Levels%201%20%26%202.png)
-      </p>
+
 
       <h3 id = "Supervised_Ml"> Predicting Customer Churn </h3>
 
