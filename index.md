@@ -6,16 +6,29 @@
 <body>
 
 <script>
+var side = document.getElementById('mySidenav');
+sideBarOpen = false;
+
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
   document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  sideBarOpen = true;
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
   document.body.style.backgroundColor = "white";
+  sideBarOpen = false;
+}
+
+window.onclick = function(event) {
+  if (sideBarOpen) {
+    if (event.target !== side && event.target !== document.getElementById('openIcon')) {
+      closeNav();
+    }
+  }
 }
 </script>
 
@@ -23,6 +36,7 @@ function closeNav() {
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <img class = "Container" src="https://github.com/Telucero/Taylor_Portfolio/blob/Web/Backups/images/00100dPORTRAIT_00100_BURST20181116154658328_COVER.jpg?raw=true" alt="Portrait" style="width:100%">
+
   <a href="#">Home</a>
   <a href="About_page.html">About</a>
   <a href="#">Resume</a>
@@ -33,9 +47,6 @@ function closeNav() {
 <div id="main">
 
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-
-
-
 
     <h1> Hello World </h1>
 
