@@ -1,6 +1,7 @@
 
-<body>
 <title> Taylor's Portfolio </title>
+
+<body>
     <h1 id = "project_title"> Hello World </h1>
 
 
