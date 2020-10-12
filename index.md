@@ -31,11 +31,11 @@ function closeNav() {
   <a href="#">Contact</a>
 </div>
 
-<div id="main">
+<div id="main" onclick="closeNav()">
 
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
-  <span onclick="closeNav()">&times;</span>
+
 
 
 </div>
