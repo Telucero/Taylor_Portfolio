@@ -19,6 +19,10 @@ function closeNav() {
   document.body.style.backgroundColor = "white";
 }
 
+document.addEventListener("click", closeNav(){
+  document.getElementById("main");
+});
+
 </script>
 
 
@@ -35,7 +39,7 @@ function closeNav() {
 
 <div id= "main">
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-  <a href="javascript:void(0)" click="closeNav"></a>
+  <a href="javascript:void(0)" addclick="closeNav"></a>
 
     <h1> Hello World </h1>
 
