@@ -20,7 +20,7 @@ function closeNav() {
 }
 
 document.addEventListener("click", closeNav(){
-  document.getElementById("main1");
+  document.getElementById("main2");
 });
 
 </script>
@@ -38,9 +38,9 @@ document.addEventListener("click", closeNav(){
 </div>
 <div id = main>
   <div id= "main1">
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-    <div id= "main2">
-      <h1> Hello World </h1>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <div id= "main2">
+        <h1> Hello World </h1>
 
         <h3 id = "Cocktail_Informant"> Cocktail Informant </h3>
 
