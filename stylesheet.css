@@ -49,7 +49,7 @@
 }
 
 /* resize image in Container */
-.Container img {
+img.Container {
   display: block;
   margin-left: auto;
   margin-right: auto;
