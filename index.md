@@ -35,17 +35,29 @@
 
       <h3><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/Python%20Work%20Samples/Artist%20Recommender.py"> Artist Recommender </a></h3>
 
+      <div class=project_Photo_container>
+      <img class= project_Photo src="https://github.com/Telucero/Taylor_Portfolio/blob/Web/Backups/images/Artist.jpeg?raw=true" alt="Artist Photo" content="img/html; charset=UTF-8; X-Content-Type-Options = nosniff" response header>
+      </div>
+
       <p>
         In this project, I used the Musicgraph API to pull information on popular artists based on total followers, popularity, and genre to provide possible recommendations the user might like. This then outputs a visual providing information on why this artist was chosen.
       </p>
 
       <h3><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/SQL%20Work%20Sample.sql"> Database Management </a></h3>
 
+      <div class=project_Photo_container>
+      <img class= project_Photo src="https://github.com/Telucero/Taylor_Portfolio/blob/Web/Backups/images/Server.jpeg?raw=true" alt="Server Photo" content="img/html; charset=UTF-8; X-Content-Type-Options = nosniff" response header>
+      </div>
+
       <p>
         In this project I managed a database for a client with a diverse array of sci-fi products. I first created tables and then based on a conceptual model built the relationship between them, these tables are Project Transaction Part, Project part, Project Transaction, and Project Transaction Type. Next, I input the necessary values into each table, identifying Foreign Keys and references along the way. At the end of this, I wrote queries to pull information based on conditionals, Joins, and Aggregate functions.
       </p>
 
       <h3><a href="https://github.com/Telucero/Taylor_Portfolio/blob/master/R%20Work%20Samples/Airline%20Satisfaction.R"> Customer Flight Analysis </a></h3>
+
+      <div class=project_Photo_container>
+      <img class= project_Photo src="https://github.com/Telucero/Taylor_Portfolio/blob/Web/Backups/images/Flight.jpeg?raw=true" alt="Flight Photo" content="img/html; charset=UTF-8; X-Content-Type-Options = nosniff" response header>
+      </div>
 
       <p>
         This was my favorite project. I analyzed customer data focusing on Descriptive, Diagnostic, and Prescriptive analytics to provide recommendations and reasoning towards low flight satisfaction for customers. While working on this project, I played around a lot when analyzing the statistics to identify important attributes to focus in on. There were a few steps in the process to receive these recommendations; they were Data Cleansing, Data Munging, Data Manipulation, and Data Visualization. In the Data Visualization part, I used ggplot2 to make a world map showing flight paths based on identified low customer satisfaction levels.
@@ -58,11 +70,19 @@
 
       <h3><a href="https://github.com/Telucero/Taylor_Portfolio/tree/master/R%20Work%20Samples/Telco%20Churn"> Predicting Customer Churn </a></h3>
 
+      <div class=project_Photo_container>
+      <img class= project_Photo src="https://github.com/Telucero/Taylor_Portfolio/blob/Web/Backups/images/Customer.jpeg?raw=true" alt="Customer Photo" content="img/html; charset=UTF-8; X-Content-Type-Options = nosniff" response header>
+      </div>
+
       <p>
         This project was completed to further my understanding and practice with Data & Data Science. This project focused on Supervised Machine Learning with  Decision Tree Classification, to predict customer churn. After a thorough analysis, a Predictive Model was developed, trained, and pruned to refine the model to best fit the entire customer population, instead of overfitting the model to the Training and Test data. This project includes Documented Information on understanding the analysis and the R code developed for the project.
       </p>
 
       <h3><a href="#"> Haskell Files </a></h3>
+
+      <div class=project_Photo_container>
+      <img class= project_Photo src="https://github.com/Telucero/Taylor_Portfolio/blob/Web/Backups/images/Haskell.jpeg?raw=true" alt="Haskell Photo" content="img/html; charset=UTF-8; X-Content-Type-Options = nosniff" response header>
+      </div>
 
       <p> Haskell Files
         Understanding Haskell after I learned Python was difficult but some of the skills and general concepts are transferable from python. It would take a bit more code to get across since Haskell is a compiled language. These files include my work with Algebraic Data types, Anonymous Functions, Trees, IO, and Turing Machines. There are a few skills that are sprinkled throughout these works like List Comprehension, Nested Functions, and Loops. Each folder contains the necessary files to run the full programs, for example the defined data types constructed for the game.
