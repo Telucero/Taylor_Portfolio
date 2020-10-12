@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="stylesheet.css">
 </head>
 
-<body id="body">
+<body>
 
 <script>
 
@@ -35,10 +35,12 @@ function closeNav() {
   <a href="#">Contact</a>
 </div>
 
-<div id="main" onclick="closeNav">
-
+<div>
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  
+</body>
 
+<body id="body">
     <h1> Hello World </h1>
 
       <h3 id = "Cocktail_Informant"> Cocktail Informant </h3>
