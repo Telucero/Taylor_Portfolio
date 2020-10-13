@@ -1,0 +1,106 @@
+<!-- Link to corresponding CSS File -->
+<head>
+  <link rel="stylesheet" href="Contact_stylesheet.css">
+</head>
+
+<!-- Setup left nav bar -->
+<body>
+
+  <div id="mySidenav" class="sidenav" >
+
+    <img class = "Container" src="https://github.com/Telucero/Taylor_Portfolio/blob/Web/Backups/images/00100dPORTRAIT_00100_BURST20181116154658328_COVER.jpg?raw=true" alt="Portrait" style="width:85%">
+
+    <a href="https://telucero.github.io/Taylor_Portfolio/">Home</a>
+    <a href="About_page.html">About</a>
+    <a href="Resume.html">Resume</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Contact.html">Contact</a>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+  <div id= "main">
+    <h1> This is needed to close the navbar currently </h1>
+  </div>
+
+<!-- Setup nav bar closing -->
+
+<!-- Setup Webpage body  -->
+
+<!-- JS script to allow Navbar to function properly  -->
+
+<!-- Icons for Contact/Social Media -->
+
+<!--Try setting up a Rotating gallery of project photos with links
+that take you to the project -->
+
+<h2>Automatic Slideshow</h2>
+<p>Change image every 2 seconds:</p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img_nature_wide.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img_snow_wide.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "275px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+
+document.getElementById('main').addEventListener('click', closeNav);
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>
+</body>
