@@ -69,6 +69,37 @@ img.Container {
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
+/* This is the start of the icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background:#333;
+  color: #f5f5f5;
+}
+
+.fa-envelope {
+  background:#b7b7b7;
+  color: white;
+}
+
+
 
 /* Start of Project gallery */
 
