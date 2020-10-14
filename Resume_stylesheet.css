@@ -1,3 +1,28 @@
+/* Header/Logo Title */
+.header {
+  padding: 100px;
+  text-align: center;
+  background: #333634;
+  color: white;
+  font-size: 30px;
+}
+
+.header_Image {
+  width: 50%;
+  height: 100px;
+}
+
+.header_Image_cont {
+  vertical-align: right;
+  height: 100px;
+}
+
+.header_Body {
+  text-align: left;
+}
+/* Page Content */
+.content {padding:10px;}
+
 /* Start of Sidenav */
 .sidenav {
   height: 100%;
@@ -57,28 +82,3 @@ img.Container {
   padding-right: 5px;
   text-align: center;
 }
-
-/* Header/Logo Title */
-.header {
-  padding: 100px;
-  text-align: center;
-  background: #333634;
-  color: white;
-  font-size: 30px;
-}
-
-.header_Image {
-  width: 50%;
-  height: 100px;
-}
-
-.header_Image_cont {
-  vertical-align: right;
-  height: 100px;
-}
-
-.header_Body {
-  text-align: left;
-}
-/* Page Content */
-.content {padding:10px;}
