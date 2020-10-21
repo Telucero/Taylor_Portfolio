@@ -129,7 +129,7 @@ img.Container {
 }
 
 .Icon_circle {
-  background-color: #696969;
+  background-color: gray;
   border-radius: 50%;
   width: 100px;
   height: 100px
