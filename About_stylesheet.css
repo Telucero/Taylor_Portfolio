@@ -118,14 +118,20 @@ img.Container {
 
 #Globe_container {
   display: inline-block;
+  width: auto;
+  height: auto;
 }
 
 #Data_container {
   display: inline-block;
+  width: auto;
+  height: auto;
 }
 
 #Magnifier_container {
   display: inline-block;
+  width: auto;
+  height: auto;
 }
 
 .Icon_circle {
