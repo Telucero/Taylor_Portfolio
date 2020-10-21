@@ -146,18 +146,20 @@ img.Container {
     margin-top: 45;
 }
 
-.Space {
+#Space1 {
   display: inline-block;
   width: auto;
   height: auto;
-  padding: 80;
+  padding-right: : 80;
 }
 
-.dSpace {
+#Space2 {
   display: inline-block;
-  height: auto;
   width: auto;
+  height: auto;
+  padding-left: : 80;
 }
+
 
 #Footer {
 
