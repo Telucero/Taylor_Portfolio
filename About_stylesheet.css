@@ -147,14 +147,12 @@ img.Container {
 }
 
 #Space1 {
-  display: inline-block;
   width: auto;
   height: auto;
   padding-right: : 80;
 }
 
 #Space2 {
-  display: inline-block;
   width: auto;
   height: auto;
   padding-left: : 80;
