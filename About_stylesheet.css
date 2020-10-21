@@ -143,4 +143,9 @@ img.Container {
 
 .iconify {
   text-align: center;
+  display: block;
+}
+
+#Footer {
+
 }
