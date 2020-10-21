@@ -126,6 +126,8 @@ img.Container {
   display: inline-block;
   width: auto;
   height: auto;
+  padding-left: 50;
+  padding right: 50;
 }
 
 #Magnifier_container {
@@ -146,7 +148,7 @@ img.Container {
     margin-top: 45;
 }
 
-#Space1 {
+/* #Space1 {
   width: auto;
   height: auto;
   padding-right: : 80;
@@ -157,6 +159,7 @@ img.Container {
   height: auto;
   padding-left: : 80;
 }
+*/
 
 
 #Footer {
