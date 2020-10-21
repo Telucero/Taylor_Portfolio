@@ -153,6 +153,12 @@ img.Container {
   padding: 80;
 }
 
+.dSpace {
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
+
 #Footer {
 
 }
