@@ -140,3 +140,7 @@ img.Container {
   width: 200px;
   height: 200px
 }
+
+.iconify {
+  align-items: center;
+}
