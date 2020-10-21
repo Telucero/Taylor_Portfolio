@@ -142,8 +142,10 @@ img.Container {
 }
 
 .iconify {
-  text-align: center;
   display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Footer {
