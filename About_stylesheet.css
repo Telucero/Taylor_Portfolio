@@ -109,3 +109,8 @@ img.Container {
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
+
+#Icon_box {
+  margin-left: auto;
+  margin-right: auto;
+}
