@@ -150,6 +150,7 @@ img.Container {
   display: inline-block;
   width: auto;
   height: auto;
+  padding: 80;
 }
 
 #Footer {
