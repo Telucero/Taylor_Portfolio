@@ -119,3 +119,11 @@ img.Container {
 #Globe_container {
   display: inline-block;
 }
+
+#Data_container{
+  display: inline-block;
+}
+
+#Magnifier_container{
+  display: inline-block;
+}
