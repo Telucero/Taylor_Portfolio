@@ -146,6 +146,12 @@ img.Container {
     margin-top: 45;
 }
 
+.Space {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
 #Footer {
 
 }
