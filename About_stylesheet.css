@@ -120,10 +120,17 @@ img.Container {
   display: inline-block;
 }
 
-#Data_container{
+#Data_container {
   display: inline-block;
 }
 
-#Magnifier_container{
+#Magnifier_container {
   display: inline-block;
+}
+
+.Icon_circle {
+  background-color: #696969;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px
 }
