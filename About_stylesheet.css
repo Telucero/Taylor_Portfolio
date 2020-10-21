@@ -113,4 +113,9 @@ img.Container {
 #Icon_box {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+#Globe_container {
+  display: inline-block;
 }
