@@ -206,7 +206,6 @@ height: auto;
 }
 
 #Spotlight {
-background-color: maroon;
 border-radius: 100%;
 height: 200;
 width:20;
@@ -218,6 +217,17 @@ animation-name: spin;
   animation-timing-function: linear;
 }
 
+.One {
+  background-color: maroon;
+}
+
+.Two {
+  background-color: azure;
+}
+
+.Three {
+  #b1fc99
+}
 @keyframes spin {
     from {
         transform:rotate(0deg);
