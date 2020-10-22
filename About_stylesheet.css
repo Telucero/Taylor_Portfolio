@@ -206,8 +206,7 @@ height: auto;
 }
 
 #Spotlight {
-  background-color: inherit;
-  border-radius: 100%
-  height: 40;
-  width:100;
+  background-color: orangered;
+  border-radius: 100%;
+  height: 55;
 }
