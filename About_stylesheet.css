@@ -226,7 +226,7 @@ animation-name: spin;
 }
 
 .Three {
-  #b1fc99
+background-color:  #b1fc99;
 }
 @keyframes spin {
     from {
