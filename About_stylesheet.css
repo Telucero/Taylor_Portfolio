@@ -148,23 +148,11 @@ img.Container {
     margin-top: 45;
 }
 
-/* #Space1 {
-  width: auto;
-  height: auto;
-  padding-right: : 80;
-}
-
-#Space2 {
-  width: auto;
-  height: auto;
-  padding-left: : 80;
-}
-*/
 
 #Footer {
 background-color: #3b3b3b;
 width: 100%;
-height: 250px;
+height: auto;
 }
 
 .About_Image {
