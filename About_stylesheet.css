@@ -156,10 +156,11 @@ height: auto;
 }
 
 .About_Image {
+  background-image: url(https://github.com/Telucero/Taylor_Portfolio/blob/Web/Backups/images/00100dPORTRAIT_00100_BURST20181116154658328_COVER.jpg?raw=true);
   border-radius: 30% 70% 44% 56% / 31% 31% 69% 69%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   shape-outside: circle(50% at 30%);
-  width: 40%;
-  height: 40%;
+  width: 275px;
+  height: 275px;
 }
