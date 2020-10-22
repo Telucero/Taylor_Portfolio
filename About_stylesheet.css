@@ -163,3 +163,8 @@ height: auto;
   width: 275px;
   height: 275px;
 }
+
+#Experience_block2 {
+  transform: scaleX(-1);
+  text-align: right;
+}
