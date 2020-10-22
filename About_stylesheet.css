@@ -163,13 +163,13 @@ img.Container {
 
 .Footer {
 background-color: #3b3b3b;
-border-radius: 5;
 width: 100%;
 height: 250px;
 }
 
 #About_Image {
-  style = "border-radius: 30% 70% 44% 56% / 31% 31% 69% 69%""
+  border-radius: 30% 70% 44% 56% / 31% 31% 69% 69%
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+  text-align: center;
+  shape-outside: circle(50% at 30%);
 }
