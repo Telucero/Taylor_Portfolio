@@ -164,6 +164,11 @@ height: auto;
   height: 275px;
 }
 
+#Experience_block2 {
+  display: inline-block;
+  text-align: right;
+}
+
 #image_right {
   transform: scaleX(-1);
 }
