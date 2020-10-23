@@ -163,6 +163,13 @@ img.Container {
 
 }
 
+#icon_back {
+  background-color: inherit;
+  border-radius: 50%;
+  width: 95px;
+  height: 95px;
+  position: relative;
+}
 
 .iconify {
     text-align: center;
