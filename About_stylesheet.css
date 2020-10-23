@@ -202,8 +202,6 @@ img.Container {
     margin-left: -45;
     position:absolute;
     top: 0;
-    opacity: 0.0;
-    fill: green;
     z-index: 3;
 }
 
