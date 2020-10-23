@@ -43,15 +43,15 @@ body, html {
 }
 
 #background_line1 {
-  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) 25% center / 10px 100% no-repeat;
-    background-position-x: 235px;
-    border-radius: 5px;
+  background: linear-gradient(#ffffff, rgb(0, 0, 0)) 42% center / 80px 100% no-repeat;
+      background-position-x: -20px;
+      border-radius: 5px;
 }
 
 #background_line2 {
-  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) 25% center / 10px 100% no-repeat;
-    background-position-x: -235px;
-    border-radius: 5px;
+  background: linear-gradient(#ffffff, rgb(0, 0, 0)) 42% center / 80px 100% no-repeat;
+      background-position-x: 1385px;
+      border-radius: 5px;
 }
 
 
@@ -213,7 +213,7 @@ margin-left: 75px;
 margin-top: 65px;
 }
 .unique_topfill {
-  background-color: white;
+background-color: white;
 width: 30px;
 height: 20px;
 margin-top: -12px;
@@ -222,10 +222,10 @@ margin-left: 17px;
 
 .unique_magnifierfill {
   width: 68px;
-    height: 67px;
-    background-color: white;
-    margin-top: 48px;
-    margin-left: 90px;
+  height: 67px;
+  background-color: white;
+  margin-top: 48px;
+  margin-left: 90px;
 }
 
 #Spotlight {
@@ -335,6 +335,8 @@ width:20;
       padding-right: 100;
       padding-top: 15;
       padding-bottom: 15;
+      background-color: white;
+          border-radius: 50%;
 }
 
 #Passion_block {
