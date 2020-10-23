@@ -169,6 +169,7 @@ img.Container {
   width: 95px;
   height: 95px;
   position: relative;
+  z-index: 2;
 }
 
 .iconify {
@@ -179,7 +180,7 @@ img.Container {
     position:absolute;
     top: 0;
     fill: green;
-    z-index: 1;
+    z-index: 3;
 }
 
 #Spotlight {
@@ -189,6 +190,7 @@ animation-name: spin;
   animation-duration: 3000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  z-index: 1;
 }
 
 .One {
