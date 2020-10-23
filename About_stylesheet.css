@@ -24,6 +24,7 @@ body, html {
 
 .hero-text button {
   border: none;
+  border-radius: 5;
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
@@ -123,7 +124,7 @@ img.Container {
   background-color: #DCDCDC;
   border-radius: 50%;
   width: 200px;
-  height: 200px
+  height: 200px;
   position:relative;
 }
 
