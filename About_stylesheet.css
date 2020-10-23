@@ -232,7 +232,7 @@ margin-left: 17px;
 display: inline-block;
 text-align: center;
 animation-name: spin;
-  animation-duration: 3000ms;
+  animation-duration: 5500ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   z-index: 1;
