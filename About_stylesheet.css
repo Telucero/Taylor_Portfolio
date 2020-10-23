@@ -115,12 +115,23 @@ img.Container {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  position:relative;
+}
+
+.Icon_circle {
+  background-color: #DCDCDC;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px
+  position:relative;
 }
 
 #Globe_container {
   display: inline-block;
   width: auto;
   height: auto;
+  position:relative;
+
 }
 
 #Data_container {
@@ -129,27 +140,73 @@ img.Container {
   height: auto;
   padding-left: 50;
   padding-right: 50;
+  position:relative;
 }
 
 #Magnifier_container {
   display: inline-block;
   width: auto;
   height: auto;
+  padding-left: 50;
+  padding-right: 50;
+  position:relative;
 }
 
-.Icon_circle {
-  background-color: #DCDCDC;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px
+#Other_container {
+  display: inline-block;
+  width: auto;
+  height: auto
+  position:relative;
+
 }
+
 
 .iconify {
     text-align: center;
     margin-top: 45;
     margin-bottom: 45;
+    position:absolute;
+    top: 0;
 }
 
+#Spotlight {
+display: inline-block;
+text-align: center;
+animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.One {
+  border-radius: 100%;
+  background-color: maroon;
+  height: 200;
+  width:20;
+}
+
+.Two {
+  border-radius: 100%;
+  background-color: azure;
+  height: 200;
+  width:20;
+}
+
+.Three {
+border-radius: 100%;
+background-color:  #b1fc99;
+height: 200;
+width:20;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
 
 #Footer {
 background-color: #3b3b3b;
@@ -209,42 +266,4 @@ height: 30%;
  margin-top: 45;
  margin-bottom:150;
  padding: 55;
-}
-
-#Spotlight {
-display: inline-block;
-text-align: center;
-animation-name: spin;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-.One {
-  border-radius: 100%;
-  background-color: maroon;
-  height: 200;
-  width:20;
-}
-
-.Two {
-  border-radius: 100%;
-  background-color: azure;
-  height: 200;
-  width:20;
-}
-
-.Three {
-border-radius: 100%;
-background-color:  #b1fc99;
-height: 200;
-width:20;
-}
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
 }
