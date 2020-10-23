@@ -43,15 +43,14 @@ body, html {
 }
 
 #background_line1 {
-  background: linear-gradient(#ffffff, rgb(0, 0, 0)) 25% center / 76px 100% no-repeat;
+  background: linear-gradient(#ffffff, rgb(0, 0, 0)) 25% center / 80px 100% no-repeat;
       background-position-x: -20px;
-      border-radius: 5px;
 }
 
 #background_line2 {
   background: linear-gradient(#ffffff, rgb(0, 0, 0)) 42% center / 80px 100% no-repeat;
       background-position-x: 1385px;
-      border-radius: 5px;
+
 }
 
 
@@ -365,6 +364,7 @@ left: 0;
 bottom: 0;
 text-align: center;
 position: relative;
+border-radius: 5px;
 }
 
 .FooterContainer {
