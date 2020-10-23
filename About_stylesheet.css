@@ -234,7 +234,19 @@ z-index: 2;
   position:absolute;
   z-index: 2;
 
-}
+  .unique_firebacking {
+    background-color: orange;
+    border-radius: 50%;
+    width: 26px;
+    height: 49px;
+    position: absolute;
+    margin-left: 96px;
+    margin-top: 87px;
+    top: 0;
+    z-index: 2;
+  }
+
+
 
 #Spotlight {
 display: inline-block;
