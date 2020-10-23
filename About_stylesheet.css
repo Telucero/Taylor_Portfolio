@@ -43,7 +43,7 @@ body, html {
 }
 
 #background_line1 {
-  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) 25% center / 76px 100% no-repeat;
+  background: linear-gradient(#ffffff, rgb(0, 0, 0)) 25% center / 76px 100% no-repeat;
       background-position-x: -20px;
       border-radius: 5px;
 }
