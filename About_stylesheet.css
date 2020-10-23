@@ -318,9 +318,9 @@ display: grid;
 
 
 $one-third0: calc(100% / 3);
-$one-third1: calc((100% / 3) + 6px);
+$one-third1: calc((100% / 3) + 6px));
 $two-third0: calc(100% / 3 * 2);
-$two-third1: calc((100% / 3 * 2) - 6px);
+$two-third1: calc((100% / 3 * 2) - 6px));
 
 $line-color: gray;
 
