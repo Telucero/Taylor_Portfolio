@@ -42,6 +42,18 @@ body, html {
   border-radius: 5;
 }
 
+#background_line1 {
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) 25% center / 10px 100% no-repeat;
+    background-position-x: 235px;
+    border-radius: 5px;
+}
+
+#background_line2 {
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) 25% center / 10px 100% no-repeat;
+    background-position-x: -235px;
+    border-radius: 5px;
+}
+
 
 /* Start of the sidenav bar*/
 
