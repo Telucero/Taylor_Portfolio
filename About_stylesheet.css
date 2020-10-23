@@ -42,19 +42,6 @@ body, html {
   border-radius: 5;
 }
 
-$one-third0: calc(100% / 3);
-$one-third1: calc((100% / 3) + 6px);
-$two-third0: calc(100% / 3 * 2);
-$two-third1: calc((100% / 3 * 2) - 6px);
-
-$line-color: gray;
-
-.lines {
-  min-height: 100vh;
-  background-image:
-    linear-gradient(90deg, transparent, transparent $one-third0, $line-color $one-third1, transparent $one-third1),
-    linear-gradient(90deg, transparent, transparent $two-third1, $line-color $two-third0, transparent $two-third0);
-  transform: translate3d(0, 0, 0);
 
 /* Start of the sidenav bar*/
 
@@ -328,3 +315,18 @@ display: grid;
 .FooterContainer {
   margin-top: 100;
 }
+
+
+$one-third0: calc(100% / 3);
+$one-third1: calc((100% / 3) + 6px);
+$two-third0: calc(100% / 3 * 2);
+$two-third1: calc((100% / 3 * 2) - 6px);
+
+$line-color: gray;
+
+.lines {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(90deg, transparent, transparent $one-third0, $line-color $one-third1, transparent $one-third1),
+    linear-gradient(90deg, transparent, transparent $two-third1, $line-color $two-third0, transparent $two-third0);
+  transform: translate3d(0, 0, 0);
