@@ -6,6 +6,7 @@ body, html {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/Telucero/Taylor_Portfolio/blob/Web/Churhc.jpg?raw=true");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +25,7 @@ body, html {
 
 .hero-text button {
   border: none;
-  border-radius: 5;
+  border-radius: 5px;
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
@@ -178,7 +179,7 @@ img.Container {
 display: inline-block;
 text-align: center;
 animation-name: spin;
-  animation-duration: 5000ms;
+  animation-duration: 3000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -198,6 +199,27 @@ animation-name: spin;
 }
 
 .Three {
+border-radius: 100%;
+background-color:  #b1fc99;
+height: 200;
+width:20;
+}
+
+.Four {
+border-radius: 100%;
+background-color:  #b1fc99;
+height: 200;
+width:20;
+}
+
+.Five{
+border-radius: 100%;
+background-color:  #b1fc99;
+height: 200;
+width:20;
+}
+
+.Six{
 border-radius: 100%;
 background-color:  #b1fc99;
 height: 200;
