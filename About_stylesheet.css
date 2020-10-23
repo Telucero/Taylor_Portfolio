@@ -127,6 +127,8 @@ img.Container {
   width: 200px;
   height: 200px;
   position:relative;
+  opacity: .6;
+  box-shadow: 0 0 10px 5px #000;
 }
 
 #Globe_container {
@@ -164,13 +166,15 @@ img.Container {
 }
 
 #icon_back {
-  background-color: inherit;
-  border-radius: 50%;
-  width: 95px;
-  height: 95px;
-  position: absolute;
-  top: 0;
-  z-index: 2;
+  background-color: white;
+      border-radius: 50%;
+      width: 82px;
+      height: 83px;
+      position: absolute;
+      margin-left: 64px;
+      margin-top: 53px;
+      top: 0;
+      z-index: 2;
 }
 
 .iconify {
@@ -191,7 +195,6 @@ animation-name: spin;
   animation-duration: 3000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  opacity: .6;
   z-index: 1;
 }
 
