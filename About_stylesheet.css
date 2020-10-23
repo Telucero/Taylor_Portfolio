@@ -120,7 +120,8 @@ img.Container {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  position:relative;
+  position: relative;
+  justify-content: space-evenly;
 }
 
 .Icon_circle {
@@ -134,7 +135,8 @@ img.Container {
 }
 
 #Globe_container {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: row;
   width: auto;
   height: auto;
   position:relative;
@@ -142,16 +144,18 @@ img.Container {
 }
 
 #Data_container {
-  display: inline-block;
+  display: inline-flex;
   width: auto;
   height: auto;
   padding-left: 50;
   padding-right: 50;
-  position:relative;
+  position: relative;
+  flex-direction: row;
 }
 
 #Magnifier_container {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: row;
   width: auto;
   height: auto;
   padding-left: 50;
@@ -160,11 +164,11 @@ img.Container {
 }
 
 #Other_container {
-  display: inline-block;
-  width: auto;
-  height: auto;
-  position:relative;
-
+  display: inline-flex;
+      flex-direction: row;
+      width: fit-content;
+      height: fit-content;
+      position: relative;
 }
 
 #icon_back {
@@ -293,8 +297,11 @@ width:20;
 
 #Experience_tower {
   margin-bottom: 100;
-  margin-top: 40;
-  padding: 55;
+      margin-top: 40;
+      padding-left: 100;
+      padding-right: 100;
+      padding-top: 15;
+      padding-bottom: 15;
 }
 
 #Passion_block {
