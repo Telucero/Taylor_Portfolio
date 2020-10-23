@@ -43,7 +43,7 @@ body, html {
 }
 
 #background_line1 {
-  background: linear-gradient(#ffffff, rgb(0, 0, 0)) 42% center / 80px 100% no-repeat;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) 25% center / 76px 100% no-repeat;
       background-position-x: -20px;
       border-radius: 5px;
 }
@@ -352,7 +352,6 @@ width: 100%;
 height: 30%;
 color: azure;
 display: grid;
-position: fixed;
 left: 0;
 bottom: 0;
 text-align: center;
@@ -361,18 +360,3 @@ text-align: center;
 .FooterContainer {
   margin-top: 100;
 }
-
-
-$one-third0: calc(100% / 3);
-$one-third1: calc((100% / 3) + 6px));
-$two-third0: calc(100% / 3 * 2);
-$two-third1: calc((100% / 3 * 2) - 6px));
-
-$line-color: gray;
-
-.lines {
-  min-height: 100vh;
-  background-image:
-    linear-gradient(90deg, transparent, transparent $one-third0, $line-color $one-third1, transparent $one-third1),
-    linear-gradient(90deg, transparent, transparent $two-third1, $line-color $two-third0, transparent $two-third0);
-  transform: translate3d(0, 0, 0);
