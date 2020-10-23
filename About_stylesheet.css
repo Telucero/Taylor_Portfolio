@@ -232,7 +232,7 @@ z-index: 2;
   margin-left: 90px;
   border-radius: 50px;
   position:absolute;
-  z-index; 2;
+  z-index: 2;
 
 }
 
@@ -356,11 +356,11 @@ width:20;
 
 #Footer {
 background-color: #3b3b3b;
-width: 100%;
+width: 105%;
 height: 30%;
 color: azure;
 display: grid;
-left: 0;
+left: -5;
 bottom: 0;
 text-align: center;
 position: relative;
