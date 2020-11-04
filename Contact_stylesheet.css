@@ -144,9 +144,9 @@ margin: -8px;
   color: white;
 }
 
-.fa-envelope {
+.fa-envelope:before {
   background:#b7b7b7;
-  color: white;
+  margin:-8px;
 }
 
 /* make a medium icon*/
