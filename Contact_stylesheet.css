@@ -16,6 +16,7 @@ body {
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
+  box-shadow: 45px 8px 43px black;
 }
 
 .sticky {
@@ -201,6 +202,7 @@ bottom: 0;
 text-align: center;
 position: relative;
 border-radius: 5px;
+box-shadow: 45px 8px 43px black;
 }
 a:link {
   color: azure;
