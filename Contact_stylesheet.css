@@ -51,12 +51,14 @@ img.Container {
 /* Start of the background_lines */
 #background_line1 {
   background: linear-gradient(#ffffff, rgb(0, 0, 0)) 25% center / 80px 100% no-repeat;
-      background-position-x: -20px;
+  background-position-x: -20px;
+  padding-top: 23px;
 }
 
 #background_line2 {
   background: linear-gradient(#ffffff, rgb(0, 0, 0)) 42% center / 80px 100% no-repeat;
-      background-position-x: 1385px;
+  background-position-x: 1385px;
+  padding-top: 23px;
 
 }
 /* This is the start of the icons */
@@ -107,15 +109,11 @@ margin: -8px;
 }
 
 /* make a medium icon*/
-/*.fa-envelope {
+.iconify {
   background:#b7b7b7;
   color: white;
 }
-.fa-envelope {
-  background:#b7b7b7;
-  color: white;
-}
-*/
+
 
 /* Start of Project gallery */
 
