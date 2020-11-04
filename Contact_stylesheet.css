@@ -67,10 +67,6 @@ body {
   color: #f1f1f1;
 }
 
-.content {
-  padding: 16px;
-}
-
 .sticky {
   position: fixed;
   top: 0;
