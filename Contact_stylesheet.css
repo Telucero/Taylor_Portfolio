@@ -49,6 +49,37 @@
     height: 120px;
 }
 
+/* Sticky Sidenav */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + #content {
+  padding-top: 102px;
+}
 /* resize image in Container */
 img.Container {
   display: block;
@@ -68,6 +99,17 @@ img.Container {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+}
+/* Start of the background_lines */
+#background_line1 {
+  background: linear-gradient(#ffffff, rgb(0, 0, 0)) 25% center / 80px 100% no-repeat;
+      background-position-x: -20px;
+}
+
+#background_line2 {
+  background: linear-gradient(#ffffff, rgb(0, 0, 0)) 42% center / 80px 100% no-repeat;
+      background-position-x: 1385px;
+
 }
 /* This is the start of the icons */
 .fa {
