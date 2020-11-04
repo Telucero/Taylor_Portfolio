@@ -164,6 +164,11 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
+.G_image {
+  width=500px;
+  height = 333.33px;
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
