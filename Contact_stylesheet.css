@@ -20,6 +20,7 @@ body {
   color: #f1f1f1;
   box-shadow: 45px 8px 43px black;
   z-index: 2;
+  margin-bottom: 5px;
 }
 
 .sticky {
@@ -226,3 +227,4 @@ a:link {
 .largesub {
   margin-left: 14%;
 }
+/* The footer paragraphs need to have the margin top as a negative */
