@@ -21,7 +21,10 @@ body {
   box-shadow: 45px 8px 43px black;
   z-index: 2;
 }
+#myHeader a:hover{
+  background-color: blue;
 
+}
 .sticky {
   position: fixed;
   top: 0;
