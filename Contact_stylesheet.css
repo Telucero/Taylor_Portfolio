@@ -73,9 +73,14 @@ img.Container {
 
 }
 /* This is the start of the icons */
-#icon_box {
+#icon_box{
   margin-left: 16%;
   margin-bottom: 1%;
+}
+#icon_box a:hover{
+  margin-left: 16%;
+  margin-bottom: 1%;
+  opacity: .65;
 }
 
 .fa {
@@ -132,6 +137,12 @@ margin: -8px;
 }
 .iconify a:hover{
   background-color: blue;
+  opacity: .65;
+}
+
+.button{
+  display: inline-flex;
+  margin: 35px;
 }
 
 
