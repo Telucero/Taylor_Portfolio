@@ -19,6 +19,7 @@ body {
   background: #555;
   color: #f1f1f1;
   box-shadow: 45px 8px 43px black;
+  z-index: 2;
 }
 
 .sticky {
@@ -137,7 +138,7 @@ img {vertical-align: middle;}
   max-width: 500px;
   position: relative;
   margin: auto;
-  
+
 }
 
 /* Caption text */
@@ -214,7 +215,6 @@ bottom: 0;
 text-align: center;
 border-radius: 5px;
 box-shadow: 45px 8px 43px black;
-margin-top: 75px;
 }
 a:link {
   color: azure;
