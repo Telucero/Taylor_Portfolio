@@ -128,8 +128,11 @@ margin: -8px;
   border-radius: 85px / 120px;
   margin-bottom: -20px;
   z-index: 1;
-}
 
+}
+.iconify a:hover{
+  background-color: blue;
+}
 
 
 /* Start of Project gallery */
