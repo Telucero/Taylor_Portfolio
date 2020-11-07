@@ -56,7 +56,7 @@ img.Container {
   background: linear-gradient(#ffffff, rgb(0, 0, 0)) 25% center / 80px 100% no-repeat;
   background-position-x: -20px;
   padding-top: 200px;
-  padding-bottom:394px;
+  padding-bottom:470px;
   margin-bottom: -610px;
 }
 
@@ -64,8 +64,9 @@ img.Container {
   background: linear-gradient(#ffffff, rgb(0, 0, 0)) 42% center / 80px 100% no-repeat;
   background-position-x: 1385px;
   padding-top: 200px;
-  padding-bottom:394px;
-  margin-bottom: -610px;
+  padding-bottom:470px;
+  margin-bottom: -607px;
+  margin-top: -670px;
 
 }
 /* This is the start of the icons */
@@ -228,5 +229,8 @@ a:link {
 }
 .largesub {
   margin-left: 14%;
+}
+#main{
+  margin-top:30px;
 }
 /* The footer paragraphs need to have the margin top as a negative */
