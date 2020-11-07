@@ -145,7 +145,6 @@ margin: -8px;
   margin: 35px;
 }
 
-
 /* Start of Project gallery */
 
 * {box-sizing: border-box;}
@@ -254,7 +253,7 @@ a:link {
   margin-top: 65px
 }
 #Center_Paragraph{
-  margin
+  margin:5px;
 }
 #main{
   margin-top:30px;
