@@ -13,7 +13,9 @@ body {
   z-index: 2;
 
 }
+#Navbutton{
 
+}
 .header {
   padding: 10px 16px;
   background: #555;
@@ -126,8 +128,8 @@ margin: -8px;
 
 /* make a medium icon*/
 .iconify {
-  background:#b7b7b7;
-  color: black;
+  background:black;
+  color: white;
   width:40px;
   height:56px;
   border-radius: 85px / 120px;
@@ -136,13 +138,12 @@ margin: -8px;
 
 }
 .iconify a:hover{
-  background-color: blue;
   opacity: .65;
 }
 
 .button{
   display: inline-flex;
-  margin: 35px;
+  margin: px;
 }
 
 /* Start of Project gallery */
