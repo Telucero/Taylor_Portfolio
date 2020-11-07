@@ -55,15 +55,17 @@ img.Container {
 #background_line1 {
   background: linear-gradient(#ffffff, rgb(0, 0, 0)) 25% center / 80px 100% no-repeat;
   background-position-x: -20px;
-  padding-top: 23px;
-  padding-bottom:50px;
+  padding-top: 200px;
+  padding-bottom:394px;
+  margin-bottom: -610px;
 }
 
 #background_line2 {
   background: linear-gradient(#ffffff, rgb(0, 0, 0)) 42% center / 80px 100% no-repeat;
   background-position-x: 1385px;
-  padding-top: 23px;
-  padding-bottom: 50px;
+  padding-top: 200px;
+  padding-bottom:394px;
+  margin-bottom: -610px;
 
 }
 /* This is the start of the icons */
@@ -215,6 +217,7 @@ bottom: 0;
 text-align: center;
 border-radius: 5px;
 box-shadow: 45px 8px 43px black;
+margin-top: 70px;
 }
 a:link {
   color: azure;
