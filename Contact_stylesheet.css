@@ -24,6 +24,7 @@ font-weight: bold;
 #Navbutton{
 text-align: center;
 text-shadow: 1px -2px dodgerblue, -2px -1px red;
+
 }
 .header {
   padding: 10px 16px;
@@ -187,12 +188,13 @@ margin: -8px;
   margin-bottom: 5px;
   width: 10%;
   border: white;
-  padding: 7px 2px;
+  padding: 14px 25px;
   padding-left: 50px;
-  padding-right: 50px
+  padding-right: 50px;
   cursor: pointer;
+  background-color: #f44336;
+  color: white;
   text-align: center;
-
 }
 .button a:hover{
   opacity:.65;
