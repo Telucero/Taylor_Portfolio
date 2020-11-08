@@ -150,12 +150,14 @@ margin: -8px;
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 5px;
-  display: block;
-  width: 15%;
+  width: 10%;
   border: white;
   padding: 7px 20px;
   cursor: pointer;
   text-align: center;
+}
+.button a:hover{
+  opacity:.65;
 }
 
 /* Start of Project gallery */
@@ -236,6 +238,14 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
+@font-face {
+    font-family: 'aquireregular';
+    src: url('aquire-bw0ox-webfont.woff2') format('woff2'),
+         url('aquire-bw0ox-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /*Footer*/
 
 #Footer {
