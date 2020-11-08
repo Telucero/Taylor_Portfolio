@@ -163,9 +163,12 @@ margin: -8px;
   margin-bottom: 5px;
   width: 10%;
   border: white;
-  padding: 7px 20px;
+  padding: 7px 2px;
+  padding-left: 50px;
+  padding-right: 50px;
   cursor: pointer;
   text-align: center;
+
 }
 .button a:hover{
   opacity:.65;
@@ -267,7 +270,6 @@ a:hover {
   opacity: .65;
 }
 a:link, a:visited {
-  background-color: #f44336;
   text-align: center;
   text-decoration: none;
 }
