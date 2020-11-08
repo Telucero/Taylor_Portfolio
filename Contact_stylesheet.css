@@ -14,7 +14,7 @@ body {
 
 }
 #Navbutton{
-
+text-align: center;
 }
 .header {
   padding: 10px 16px;
@@ -24,7 +24,7 @@ body {
   z-index: 2;
 }
 #myHeader a:hover{
-  background-color: blue;
+  opacity: .65 .
 
 }
 .sticky {
@@ -141,7 +141,15 @@ margin: -8px;
 
 .button{
   display: inline-flex;
-  margin: px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  display: block;
+  width: 15%;
+  border: white;
+  padding: 7px 20px;
+  cursor: pointer;
+  text-align: center;
 }
 
 /* Start of Project gallery */
