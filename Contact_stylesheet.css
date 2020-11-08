@@ -248,8 +248,8 @@ img {vertical-align: middle;}
 
 @font-face {
     font-family: 'aquireregular';
-    src: url('https://github.com/Telucero/Taylor_Portfolio/blob/Web/webfontkit-20201107-225946/aquire-bw0ox-webfont.woff?raw=true') format('woff2'),
-         url('https://github.com/Telucero/Taylor_Portfolio/blob/Web/webfontkit-20201107-225946/aquire-bw0ox-webfont.woff2?raw=true') format('woff');
+    src: url('https://github.com/Telucero/Taylor_Portfolio/blob/Web/webfontkit-20201107-225946/aquire-bw0ox-webfont.woff') format('woff2'),
+         url('https://github.com/Telucero/Taylor_Portfolio/blob/Web/webfontkit-20201107-225946/aquire-bw0ox-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
