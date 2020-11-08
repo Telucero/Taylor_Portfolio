@@ -37,11 +37,35 @@ text-shadow: 1px -2px dodgerblue, -2px -1px red;
   opacity: .65 .
 }
 .vertical_line{
-  display: inline-flex;
+  display: inline-block;
 
 }
 #nav_lines{
+  height: 37px;
+      background-color: yellow;
+      z-index: 4;
+      width: 2px;
+      border-radius: 50px 0px 50px 0px;
+      display: inline-block;
+      margin-bottom: -12px;
+}
+.Head_line{
+  text-shadow: 1px -2px #07d8f3, -2px -1px red;
+  z-index: 4;
+  background-color: black
+  height: 3px;
+  width: 50px;
+}
+#Head_line1{
 
+}
+#Head_line2{
+
+}
+#Head_line3{
+
+}
+#Head_line4{
 
 }
 .sticky {
@@ -165,7 +189,7 @@ margin: -8px;
   border: white;
   padding: 7px 2px;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 50px
   cursor: pointer;
   text-align: center;
 
