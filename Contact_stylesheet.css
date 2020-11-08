@@ -241,8 +241,8 @@ img {vertical-align: middle;}
 
 @font-face {
     font-family: 'aquireregular';
-    src: url('https://telucero.github.io/Taylor_Portfolio/Contact.html') format('woff2'),
-         url('https://telucero.github.io/Taylor_Portfolio/Contact.html') format('woff');
+    src: url('https://github.com/Telucero/Taylor_Portfolio/blob/Web/webfontkit-20201107-225946/aquire-bw0ox-webfont.woff') format('woff2'),
+         url('https://github.com/Telucero/Taylor_Portfolio/blob/Web/webfontkit-20201107-225946/aquire-bw0ox-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -269,6 +269,7 @@ a:link {
 }
 .largesub {
   margin-left: 14%;
+  margin-top: -645px;
 }
 .Paragraph{
   display: inline-flex;
