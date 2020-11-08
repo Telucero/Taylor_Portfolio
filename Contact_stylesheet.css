@@ -13,7 +13,7 @@ body {
   z-index: 2;
 }
 #Page_header{
-  text-shadow: 1px -2px dodgerblue, -2px -1px red;
+  text-shadow: 1px -2px #07d8f3, -2px -1px red;
   font-size: 35px;
   text-align: left;
   margin-bottom: -2px;
@@ -247,21 +247,6 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
-@font-face {
-    font-family: 'aquireregular';
-    src: url('https://github.com/Telucero/Taylor_Portfolio/blob/Web/webfontkit-20201107-225946/aquire-bw0ox-webfont.woff') format('woff2'),
-         url('https://github.com/Telucero/Taylor_Portfolio/blob/Web/webfontkit-20201107-225946/aquire-bw0ox-webfont.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face{
-	font-family: 'MyWebFont';
-	src: url('WebFont.eot');
-	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-	     url('WebFont.woff') format('woff'),
-	     url('WebFont.ttf') format('truetype'),
-	     url('WebFont.svg#webfont') format('svg');
-}
 /*Footer*/
 
 #Footer {
