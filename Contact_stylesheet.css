@@ -28,6 +28,7 @@ text-align: center;
   color: #f1f1f1;
   box-shadow: 45px 8px 43px black;
   z-index: 2;
+  text-align: center;
 }
 #myHeader a:hover{
   opacity: .65 .
