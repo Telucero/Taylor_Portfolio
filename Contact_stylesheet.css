@@ -35,7 +35,7 @@ text-shadow: 1px -2px dodgerblue, -2px -1px red;
   text-align: center;
 }
 #myHeader a:hover{
-  opacity: .65;
+  opacity: .65 .
 }
 .vertical_line{
   display: inline-block;
@@ -50,9 +50,6 @@ text-shadow: 1px -2px dodgerblue, -2px -1px red;
       display: inline-block;
       margin-bottom: -12px;
 }
-#Head_block{
-  display:inline-flex;
-}
 .Head_line{
   box-shadow: 2px -2px #07d8f3, -2px 1px red;
   width: 200px;
@@ -63,18 +60,17 @@ text-shadow: 1px -2px dodgerblue, -2px -1px red;
   margin-left: 75px;
 }
 #Head_line1{
-margin-bottom: 40px;
+
 }
 #Head_line2{
-margin-top: 60px;
+
 }
 #Head_line3{
-margin-bottom: 40px;
+
 }
 #Head_line4{
-margin-top: 60px;
-}
 
+}
 .sticky {
   position: fixed;
   top: 0;
