@@ -82,6 +82,7 @@ margin-top:10px;
 }
 #Head_line4{
 margin-top: 60px;
+margin-right: 50px;
 }
 .sticky {
   position: fixed;
@@ -225,6 +226,7 @@ img {vertical-align: middle;}
   max-width: 500px;
   position: relative;
   margin: auto;
+  margin-right: 200px
 
 }
 
@@ -266,6 +268,12 @@ img {vertical-align: middle;}
 .G_image {
   width: 500px;
   height: 333.33px;
+}
+
+#dot_box{
+  text-align: center;
+  margin-right: -530px;
+
 }
 
 /* Fading animation */
