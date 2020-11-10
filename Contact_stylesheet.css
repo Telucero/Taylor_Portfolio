@@ -143,8 +143,8 @@ img.Container {
 }
 /* This is the start of the icons */
 #icon_box{
-  margin-left: 16%;
-  margin-bottom: 1%;
+  margin-left: 200px;
+  position: relative;
 }
 #icon_box a:hover{
   opacity: .65;
@@ -236,7 +236,7 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
   margin-right: 200px;
-  margin-top: -90px;
+  margin-top: -235px;
 
 }
 
@@ -335,8 +335,9 @@ a:link, a:visited {
   margin-top: -10px;
 }
 .largesub {
-  margin-left: 14%;
-  margin-top: -645px;
+  margin-left: 13%;
+  margin-top: 208px;
+  position: relative;
 }
 .Paragraph{
   display: inline-flex;
@@ -348,7 +349,7 @@ a:link, a:visited {
   margin:5px;
 }
 #main{
-  margin-top:635px;
+  margin-top:0px;
 }
 .large_bubble{
   width: 50px;
@@ -440,7 +441,7 @@ float:left;
   margin-bottom: ;
 }
 #m_bubble4{
-  margin-left: 360px ;
+  margin-left: -135px ;
   margin-right: ;
   margin-top: ;
   margin-bottom: ;
