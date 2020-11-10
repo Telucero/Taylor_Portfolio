@@ -69,15 +69,15 @@ text-shadow: 1px -2px dodgerblue, -2px -1px red;
   	background-color: orange;
   	text-align: left;
   }
-  #triangle:before,
-  #triangle:after {
+#triangle:before,
+#triangle:after {
   	content: '';
   	position: absolute;
   	background-color: inherit;
   }
-  #triangle,
-  #triangle:before,
-  #triangle:after {
+#triangle,
+#triangle:before,
+#triangle:after {
   	width:  10em;
   	height: 10em;
   	border-top-right-radius: 30%;
