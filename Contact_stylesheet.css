@@ -239,7 +239,7 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
   margin-right: 200px;
-  margin-top: -235px;
+  margin-top: -180px;
 
 }
 
@@ -446,7 +446,7 @@ float:left;
 #m_bubble4{
   margin-left: -200px;
   margin-right: ;
-  margin-top: ;
+  margin-top: 94px ;
   margin-bottom:-336px ;
   float: left;
 
@@ -472,27 +472,28 @@ float:left;
 }
 #s_bubble2{
   float: left;
-      margin-left: 115px;
-      margin-bottom: -517px;
-      margin-top: 159px;
+      margin-top: 71px;
 }
 #s_bubble3{
   margin-left: ;
   margin-right: ;
   margin-top: ;
   margin-bottom: ;
+  float:;left;
 }
 #s_bubble4{
   margin-left: ;
-  margin-right: ;
-  margin-top: ;
-  margin-bottom: ;
+      margin-right: 27px;
+      margin-top: 46px;
+      margin-bottom: ;
+      float: right;
 }
 #s_bubble5{
-  margin-left: ;
-  margin-right: ;
-  margin-top: ;
+  margin-left: 121px;
+  margin-right: -121px;
+  margin-top: 147px;
   margin-bottom: ;
+  float: left;
 }
 #s_bubble6{
   margin-left: ;
@@ -501,10 +502,17 @@ float:left;
   margin-bottom: ;
 }
 #s_bubble7{
-  margin-left: ;
-  margin-right: ;
-  margin-top: ;
-  margin-bottom: ;
+  margin-left: -443px;
+      margin-right: 360px;
+      margin-top: 240px;
+      margin-bottom: ;
+      float: right;
+}
+#s_bubble8{
+  float: left;
+      margin-left: 115px;
+      margin-bottom: -517px;
+      margin-top: 159px;
 }
 
 
