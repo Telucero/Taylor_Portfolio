@@ -91,7 +91,7 @@ margin-top:10px;
 }
 #Head_line4{
 margin-top: 60px;
-margin-right: 50px;
+margin-right: 90px;
 }
 
 .sticky {
@@ -219,6 +219,9 @@ margin: -8px;
   color: white;
   text-align: center;
 }
+#Spacing{
+  margin-right: 130px;
+}
 .button a:hover{
   opacity:.65;
 }
@@ -336,7 +339,7 @@ a:link, a:visited {
 }
 .largesub {
   margin-left: 13%;
-  margin-top: 208px;
+  margin-top: 130px;
   position: relative;
 }
 .Paragraph{
@@ -398,7 +401,7 @@ float:left;
 #l_bubble2{
   margin-left: ;
   margin-right: 80px;
-  margin-top: ;
+  margin-top: -32px;
   margin-bottom: ;
   float: right;
 }
@@ -406,7 +409,7 @@ float:left;
   margin-left: 500px;
   margin-right: ;
   margin-top: ;
-  margin-bottom: ;
+  margin-bottom: -45px ;
   float: left;
 }
 #l_bubble4{
@@ -441,10 +444,10 @@ float:left;
   margin-bottom: ;
 }
 #m_bubble4{
-  margin-left: -135px ;
+  margin-left: -200px;
   margin-right: ;
   margin-top: ;
-  margin-bottom: ;
+  margin-bottom:-336px ;
   float: left;
 
 }
@@ -452,7 +455,7 @@ float:left;
   margin-left:99px ;
   margin-right: ;
   margin-top: ;
-  margin-bottom: ;
+  margin-bottom: -35px ;
   float: left;
 }
 #m_bubble6{
@@ -467,5 +470,19 @@ float:left;
   margin-top: ;
   margin-bottom: ;
 }
+#s_bubble2{
+  margin-left: ;
+  margin-right: ;
+  margin-top: ;
+  margin-bottom: ;
+}
+#s_bubble3{
+  margin-left: ;
+  margin-right: ;
+  margin-top: ;
+  margin-bottom: ;
+}
+
+
 
 /* The footer paragraphs need to have the margin top as a negative */
