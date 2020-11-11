@@ -240,7 +240,9 @@ img {vertical-align: middle;}
   margin: auto;
   margin-right: 200px;
   margin-top: -180px;
-
+}
+#special_text{
+  color:black;
 }
 
 /* Caption text */
