@@ -336,6 +336,7 @@ a:link, a:visited {
 
 .FooterContainer {
   margin-top: -10px;
+  text-shadow: 4px 3px black;
 }
 .largesub {
   margin-left: 13%;
