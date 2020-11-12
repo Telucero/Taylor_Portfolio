@@ -2,7 +2,8 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Barlow' sans-serif;
+    font-family: 'Barlow', sans-serif;
+    background-color: white;
 }
 .header {
   padding: 10px 16px;
@@ -93,11 +94,7 @@ img.Container {
       margin-top: -1112px;
 }
 
-body {
-  margin: 0;
-  font-family: 'Barlow' sans-serif;
-  background-color: white;
-}
+
 
 .header-container {
   background-color: #f1f1f1;
