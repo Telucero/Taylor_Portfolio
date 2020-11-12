@@ -30,6 +30,10 @@ html, body {
   height:50;
 }
 
+#Resume {
+  text-align: center;
+}
+
 
 .button{
   display: inline-block;
