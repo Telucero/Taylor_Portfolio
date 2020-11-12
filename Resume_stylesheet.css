@@ -26,9 +26,11 @@ html, body {
   text-align: left;
 }
 /* Page Content */
-.content {
-  padding:10px;
-  height:50;
+.Content {
+text-align: center;
+margin: 67px;
+margin-top: -1px;
+
 }
 
 #Resume {
