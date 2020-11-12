@@ -35,7 +35,6 @@ margin-top: -1px;
 
 #Resume {
   text-align: center;
-  margin:
 }
 
 
@@ -198,7 +197,7 @@ margin-right: 90px;
       text-align: center;
       border-radius: 5px;
       box-shadow: 45px 8px 43px black;
-      margin-top: 601px;
+      margin-top: 15px;
 }
 a:hover {
   color: azure;
@@ -213,25 +212,8 @@ a:link, a:visited {
   margin-top: -10px;
   text-shadow: 4px 3px black;
 }
-.largesub {
-  margin-left: 13%;
-  margin-top: 130px;
-  position: relative;
-}
-.Paragraph{
-  display: inline-flex;
-  font-size: 15px;
-  margin:25px;
-  margin-top: 65px
-}
-#Center_Paragraph{
-  margin:5px;
-}
-#main{
-  position: relative;
-      margin-left: 90px;
-  }
-}
+
+
 
 #background_line1 {
   background: linear-gradient(#ffffff, rgb(0, 0, 0)) 25% center / 80px 100% no-repeat;
