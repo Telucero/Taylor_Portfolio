@@ -23,7 +23,7 @@ body {
   font-size: 75px;
   text-align: left;
   margin-bottom: -2px;
-  margin-left: -40px;
+  margin-left: 0px;
 margin-top: 6px;
 font-family: 'Barlow', sans-serif;
 font-weight: bold;
@@ -91,7 +91,7 @@ margin-top:10px;
 }
 #Head_line4{
 margin-top: 60px;
-margin-right: 90px;
+margin-right: 45px;
 }
 
 .sticky {
