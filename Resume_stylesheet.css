@@ -214,6 +214,13 @@ margin-right: 90px;
   padding-top: 102px;
 }
 
+.Title {
+  text-align: left;
+}
+.Text {
+  text-align: center;
+
+}
 #Footer {
   background-color: #3b3b3b;
       width: 100%;
@@ -224,6 +231,13 @@ margin-right: 90px;
       border-radius: 5px;
       box-shadow: 45px 8px 43px black;
       margin-top: -65px;
+}
+#Footer_Text {
+  margin-top:50px;
+
+}
+.Footer_Link {
+  
 }
 a:hover {
   color: azure;
