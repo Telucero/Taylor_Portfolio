@@ -78,20 +78,21 @@ cursor: pointer;
 opacity: .59;
 margin: 0 auto;
 padding: 0;
-overflow: visible;
 border: 2px solid rgba(0,0,255,1);
 border-radius: 40px;
 color: rgba(255,255,255,1);
 text-align: center;
-text-overflow: clip;
 letter-spacing: 1px;
 background: rgba(74,134,232,1);
-box-shadow: none;
-text-shadow: none;
-transform-origin: 50% 50% 0;
+
 
 }
-
+#Contact_Design{
+padding: 10px;
+padding-left: 25px;
+padding-right: 23px;
+color: #8bd6f3;
+}
 .button{
   display: inline-block;
   margin-left: 15px;
@@ -243,7 +244,7 @@ margin-right: 90px;
 
 
 a:hover {
-  color: azure;
+  color: blue;
   opacity: .65;
 }
 a:link, a:visited {
@@ -251,7 +252,7 @@ a:link, a:visited {
   text-decoration: none;
   color:white;
   padding-left: 5px;
-  padding-right 5px;
+  padding-right: 5px;
 }
 
 .FooterContainer {
@@ -260,7 +261,7 @@ a:link, a:visited {
 }
 
 .bar{
-  
+
 }
 
 #background_line1 {
