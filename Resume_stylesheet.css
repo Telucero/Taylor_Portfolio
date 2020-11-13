@@ -37,7 +37,9 @@ margin-top: -21px;
   margin-right: 25px;
   margin-bottom: 20px;
 }
-
+#Name{
+  font-size: 35px;
+}
 
 .button{
   display: inline-block;
