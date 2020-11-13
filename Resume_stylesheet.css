@@ -4,18 +4,34 @@ html, body {
     overflow-x: hidden;
     font-family: 'Barlow', sans-serif;
     background-color: white;
+    margin: 0;
 }
 
 /* Page Content */
+
+#main {
+  text-align: center;
+    /* margin: 67px; */
+    /* margin-top: -5420px; */
+    /* background-color: black; */
+    /* padding: 67px; */
+    padding-top: 0;
+    margin: 0;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    background: linear-gradient(#ffffff, rgb(4, 0, 0)) 45% right/ 74px 100% no-repeat;
+    background-image: -webkit-linear-gradient(-90deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
+    background-image: -moz-linear-gradient(180deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
+    background-image: linear-gradient(180deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
+}
 .Content {
-text-align: center;
-margin: 67px;
-margin-top: -1px;
+margin-top: -19px;
 
 }
 
 #Resume {
-  text-align: center;
+  background-color: white;
+  padding-bottom: 132px;
 }
 
 
@@ -156,7 +172,7 @@ margin-right: 90px;
       text-align: center;
       border-radius: 5px;
       box-shadow: 45px 8px 43px black;
-      margin-top: 15px;
+          margin-top: -198px;
 }
 a:hover {
   color: azure;
