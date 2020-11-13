@@ -96,7 +96,6 @@ overflow: visible;
 border: 2px solid rgba(0,0,255,1);
 -webkit-border-radius: 40px;
 border-radius: 40px;
-
 color: rgba(255,255,255,1);
 text-align: center;
 -o-text-overflow: clip;
@@ -129,12 +128,6 @@ transform-origin: 50% 50% 0;
   cursor: pointer;
   color: white;
   text-align: center;
-}
-
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 
 #background_line1 {
