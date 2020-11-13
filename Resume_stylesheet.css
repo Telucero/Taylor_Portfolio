@@ -137,7 +137,7 @@ color: rgb(30, 195, 204 ,1);
       font-size: 75px;
       text-align: left;
       margin-bottom: -2px;
-      margin-left: -40px;
+      margin-left: -100px;
       margin-top: 6px;
       font-family: 'Barlow', sans-serif;
       font-weight: bold;
@@ -263,7 +263,7 @@ a:link, a:visited {
 width: 990px;
 }
 .words{
-  
+
 }
 
 .large_bubble{
