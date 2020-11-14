@@ -10,9 +10,9 @@ body, html {
 
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/Telucero/Taylor_Portfolio/blob/Web/Fringed_laptop_Code.png?raw=true");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://github.com/Telucero/Taylor_Portfolio/blob/Web/Fringed_laptop_Code.png?raw=true");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 50%;
+  height: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
