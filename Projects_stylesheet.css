@@ -6,8 +6,6 @@ html, body {
     margin: 0;
 }
 
-
-
 .header-container {
   background-color: #f1f1f1;
   padding: 30px;
@@ -20,21 +18,20 @@ html, body {
       text-align: left;
       margin-bottom: -2px;
       margin-left: -100px;
-      margin-top: 6px;
+      margin-top: 0px;
       font-family: 'Barlow', sans-serif;
       font-weight: bold;
 }
 #Header_design{
   display: inline-flex;
+  margin-left: 145px;
+  margin-top:-101px;
 }
 #Navbuttons{
 text-align: center;
 text-shadow: -2px -2px black;
-    margin-left: -1300px;
-    margin-top: 106px;
-    display: inline-flex;
+    margin-top: 0px;
     font-size: 17px;
-
 }
 .header {
   padding: 10px 16px;
@@ -42,7 +39,8 @@ text-shadow: -2px -2px black;
   color: #f1f1f1;
   box-shadow: 45px 8px 43px black;
   z-index: 2;
-  text-align: center;
+  max-width: 100%;
+
 }
 #myHeader a:hover{
   opacity: .65 .
@@ -62,7 +60,8 @@ text-shadow: -2px -2px black;
 }
 
 #Head_block{
-  display:inline-flex;
+  display:inline-grid;
+  margin-left: 111px;
 }
 .Head_line{
   box-shadow: 2px -2px #07d8f3, -2px 1px red;
