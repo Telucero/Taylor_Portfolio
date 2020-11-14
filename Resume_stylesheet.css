@@ -181,6 +181,7 @@ text-shadow: -2px -2px black;
 
 #Head_block{
   display:inline-flex;
+  margin-left: 111px;
 }
 .Head_line{
   box-shadow: 2px -2px #07d8f3, -2px 1px red;
