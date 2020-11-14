@@ -1,71 +1,163 @@
-/* Start of the sidenav bar*/
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Barlow', sans-serif;
+    background-color: white;
+    margin: 0;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
 
-.sidenav a:hover {
+
+.header-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  z-index: 2;
+}
+#Page_header{
+  text-shadow: 1px -2px #07d8f3, -2px -1px red;
+      font-size: 75px;
+      text-align: left;
+      margin-bottom: -2px;
+      margin-left: -100px;
+      margin-top: 6px;
+      font-family: 'Barlow', sans-serif;
+      font-weight: bold;
+}
+#Header_design{
+  display: inline-flex;
+}
+#Navbuttons{
+text-align: center;
+text-shadow: -2px -2px black;
+    margin-left: -1300px;
+    margin-top: 106px;
+    display: inline-flex;
+    font-size: 17px;
+
+}
+.header {
+  padding: 10px 16px;
+  background: #555;
   color: #f1f1f1;
+  box-shadow: 45px 8px 43px black;
+  z-index: 2;
+  text-align: center;
+}
+#myHeader a:hover{
+  opacity: .65 .
+}
+.vertical_line{
+  display: inline-block;
+}
+#nav_lines{
+  height: 37px;
+      background-color: yellow;
+      z-index: 4;
+      width: 2px;
+      border-radius: 50px 0px 50px 0px;
+      display: inline-block;
+      margin-bottom: -12px;
+      opacity: .4;
 }
 
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+#Head_block{
+  display:inline-flex;
+}
+.Head_line{
+  box-shadow: 2px -2px #07d8f3, -2px 1px red;
+  width: 200px;
+  height: 4px;
+  z-index: 5;
+  background: black;
+  display: inline-flex;
+  margin-left: 55px;
+}
+#Head_line1{
+margin-bottom: 40px;
+margin-top: 10px;
+}
+#Head_line2{
+margin-top: 60px;
+}
+#Head_line3{
+margin-bottom: 40px;
+margin-top:10px;
+}
+#Head_line4{
+margin-top: 60px;
+margin-right: 90px;
 }
 
 #main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-#Container {
-    width: 200px;
-    height: 120px;
-}
-
-/* resize image in Container */
-img.Container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  padding-right: 5px;
   text-align: center;
-  position: relative;
-  margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+    padding: 67px;
+    padding-top: 0;
+    margin: 0;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    background: linear-gradient(#ffffff, rgb(4, 0, 0)) 45% right/ 74px 100% no-repeat;
+    background-image: -webkit-linear-gradient(-90deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
+    background-image: -moz-linear-gradient(180deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
+    background-image: linear-gradient(180deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
+}
+
+#project {    /*AKA Resume div from the Resume page */
+  margin-top: 85px;
+  background-color: white;
+      padding-bottom: 168px;
+}
+
+#Footer {
+  background-color: #3b3b3b;
+      width: 100%;
+      height: 25%;
+      color: azure;
+      bottom: 0;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 45px 8px 43px black;
+      margin-top: -65px;
+}
+#Footer_Text {
+  margin-top:50px;
+  padding-top: 70px;
+
+}
+.Footer_Link {
+
+}
+
+
+a:hover {
+  color: blue;
+  opacity: .65;
+}
+a:link, a:visited {
+  text-align: center;
+  text-decoration: none;
+  color:white;
+
+}
+
+.FooterContainer {
+  margin-top: -10px;
+  text-shadow: 4px 3px black;
+}
+
+.bar{
+width: 990px;
+}
+
+.small_bubble{
+  width: 13px;
+height: 0px;
+opacity: 0.45;
+border-top: 0px solid rgba(40,40,40,0.7);
+border-right: 0 solid rgba(40,40,40,0.7);
+border-bottom: 13px solid rgba(40,40,40,0.7);
+border-left: 0 solid rgba(40,40,40,0.7);
+border-radius: 50%;
+background: rgba(0,0,0,0.85);
+box-shadow: -12px -1px 8px 2px rgba(255,0,0,1), 7px 4px 9px 2px #07d8f3;
 }
