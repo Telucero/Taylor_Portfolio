@@ -7,6 +7,8 @@ body, html {
 }
 
 
+
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/Telucero/Taylor_Portfolio/blob/Web/Fringed_laptop_Code.png?raw=true");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -386,4 +388,78 @@ a:link {
 
 .FooterContainer {
   margin-top: 100;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+html, body {
+  height: 100%;
+}
+body {
+  background: black;
+  font-family: 'Barlow', sans-serif;
+}
+
+.glitch-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glitch {
+  @offset1: 2px;
+  @offset2: -2px;
+  @highlight1: #49FC00;
+  @highlight2: spin(@highlight1, 180);
+
+  color: white;
+  font-size: 150px;
+  text-transform: upercase;
+  position: relative;
+  display: inline-block;
+
+  &::before,
+  &::after  {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+  }
+
+  &::before {
+    left: @offset1;
+    text-shadow: -2px 0 @highlight1;
+    clip: rect(24px, 550px, 90px, 0);
+    animation: glitch-anim-2 15s infinite linear alternate-reverse;
+  }
+
+  &::after {
+    left: @offset2;
+    text-shadow: -2px 0 @highlight2;
+    clip: rect(85px, 550px, 140px, 0);
+    animation: glitch-anim 15s infinite linear alternate-reverse;
+  }
+}
+
+.glitch-frames (@n: 20, @index: 0) when (@index <= @n) {
+  @keyframeSel: percentage(@index/@n);
+  @rand1: unit(round(`Math.random()*150`),px);
+  @rand2: unit(round(`Math.random()*150`), px);
+  @{keyframeSel} {
+    clip: rect(@rand1, 9999px, @rand2, 0);
+  }
+.glitch-frames (@n, (@index + 1));
+}
+
+@keyframes glitch-anim {
+  .glitch-frames(30);
+}
+
+@keyframes glitch-anim-2 {
+  .glitch-frames(35,2);
 }
