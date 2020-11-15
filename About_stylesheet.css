@@ -1,9 +1,10 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
   max-width: 100%;
   overflow-x: hidden;
+  	font-family: 'Barlow', sans-serif;
+    background-color: white;
 }
 
 
@@ -407,16 +408,6 @@ body{
   letter-spacing: -7px;
 }*/
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
-
-html,
-body {
-	height: 100%;
-}
-
-body {
-	background: black;
-	font-family: 'Barlow', sans-serif;
-}
 
 .glitch-wrapper {
 	height: 100%;
