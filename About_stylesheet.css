@@ -9,7 +9,6 @@ body, html {
 
 
 
-
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://github.com/Telucero/Taylor_Portfolio/blob/Web/Fringed_laptop_Code.png?raw=true");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -47,57 +46,15 @@ body, html {
   border-radius: 5;
 }
 
-#background_line1 {
-  background: linear-gradient(#ffffff, rgb(0, 0, 0)) 25% center / 80px 100% no-repeat;
-      background-position-x: -20px;
-}
-
-#background_line2 {
-  background: linear-gradient(#ffffff, rgb(0, 0, 0)) 42% center / 80px 100% no-repeat;
-      background-position-x: 1385px;
-
-}
-
-
-/* Start of the sidenav bar*/
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
 
 #main {
-  transition: margin-left .5s;
-  padding: 16px;
+  background: linear-gradient(#ffffff, rgb(4, 0, 0)) 45% right/ 74px 100% no-repeat;
+  background-image: -webkit-linear-gradient(-90deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
+  background-image: -moz-linear-gradient(180deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
+  background-image: linear-gradient(180deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
+}
+#content{
+  background-color: white;
 }
 
 @media screen and (max-height: 450px) {
