@@ -103,6 +103,7 @@ text-shadow: -2px -2px black;
 #Head_block{
   display:inline-flex;
   margin-left: 111px;
+  margin-left: -689px;
 }
 .Head_line{
   box-shadow: 2px -2px #07d8f3, -2px 1px red;
@@ -478,14 +479,14 @@ body{
 
 .glitch::before {
 	left: 2px;
-	text-shadow: -2px 0 #49FC00;
+	text-shadow: -2px 0 rgba(255,0,0,1);
 	clip: rect(24px, 550px, 90px, 0);
 	animation: glitch-anim-2 15s infinite linear alternate-reverse;
 }
 
 .glitch::after {
 	left: -2px;
-	text-shadow: -2px 0 #b300fc;
+	text-shadow: -2px 0 #07d8f3;
 	clip: rect(85px, 550px, 140px, 0);
 	animation: glitch-anim 15s infinite linear alternate-reverse;
 }
