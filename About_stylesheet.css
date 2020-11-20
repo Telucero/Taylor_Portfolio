@@ -154,7 +154,9 @@ margin-right: 90px;
   background-color: whitesmoke;
 
 }
-
+.text{
+  
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
