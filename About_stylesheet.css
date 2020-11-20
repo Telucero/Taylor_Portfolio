@@ -12,11 +12,12 @@ body, html {
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://github.com/Telucero/Taylor_Portfolio/blob/Web/Fringed_laptop_Code.png?raw=true");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 80%;
+  height: 65%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  z-index:8;
 }
 
 .hero-text {
@@ -51,7 +52,7 @@ body, html {
   background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
-  z-index: 2;
+  z-index: 7;
 }
 #Page_header{
   text-shadow: 1px -2px #07d8f3, -2px -1px red;
@@ -117,7 +118,7 @@ text-shadow: -2px -2px black;
 #Head_block{
   display:inline-flex;
   margin-left: 111px;
-  margin-left: -689px;
+  margin-left: 63px;
 }
 .Head_line{
   box-shadow: 2px -2px #07d8f3, -2px 1px red;
@@ -155,7 +156,7 @@ margin-right: 90px;
 
 }
 .text{
-  
+  margin-left: 25px;
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -477,10 +478,11 @@ body{
 
 .glitch {
 	color: white;
-	font-size: 65px;
+	font-size: 85px;
 	text-transform: uppercase;
 	position: relative;
 	display: inline-block;
+  margin-bottom: 20px;
 }
 
 .glitch::before,
