@@ -151,7 +151,7 @@ margin-right: 90px;
   background-image: linear-gradient(180deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
   padding: 67px;
 }
-#content{
+.content{
   background-color: whitesmoke;
 
 }
