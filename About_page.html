@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/Telucero/Taylor_Portfolio/blob/Web/favicon_io/favicon-16x16.png?raw=true">
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"> </script>
 </head>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <body>
 
 
@@ -278,19 +278,11 @@
 
 <script>
 
-function openNav() {
-  document.getElementById("mySidenav").style.width = "275px";
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-  document.body.style.backgroundColor = "white";
-}
-
-document.getElementById('main').addEventListener('click', closeNav);
+  $(document).ready(() => {
+      $(".Icon_circle").click(function() => {
+          $(".pop-up").slideToggle();
+      });
+  });
 
 </script>
 </body>
