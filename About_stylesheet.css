@@ -238,9 +238,6 @@ img.Container {
   position:relative;
 }
 
-#Magnifier_container:active::before {
-  background-color: red;
-}
 
 #Other_container {
   display: inline-flex;
