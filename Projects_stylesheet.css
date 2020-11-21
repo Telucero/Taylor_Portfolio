@@ -101,12 +101,26 @@ margin-right: 90px;
     background-image: linear-gradient(180deg, rgba(255,252,252,1) 0, rgba(255,252,252,1) 1%, rgba(0,0,0,1) 100%);
 }
 
-#project {    /*AKA Resume div from the Resume page */
+#project_box {    /*AKA Resume div from the Resume page */
   margin-top: 85px;
   background-color: white;
       padding-bottom: 168px;
 }
+.Projects {
+  
+}
+#Project_1{
 
+}
+#Project_2{
+
+}
+#Project_3{
+
+}
+#Project_4{
+
+}
 #Footer {
   background-color: #3b3b3b;
       width: 100%;
