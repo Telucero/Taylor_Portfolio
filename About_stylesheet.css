@@ -857,7 +857,18 @@ float: right;
     margin-top: 8px;
 }
 
+#hidden_textMagnifier{
+  
+}
+#hidden_textOther{
 
+}
+#hidden_textData{
+
+}
+#hidden_textGlobe{
+
+}
 
 .hidden_text{
   display:none;
