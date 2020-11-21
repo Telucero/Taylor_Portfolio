@@ -892,7 +892,7 @@ float: right;
   display:none;
 }
 
-#hidden_label{
+.hidden_label{
   display: none;
   position:absolute;
   text-shadow: 1px -2px 2px #07d8f3, -2px -1px 2px red;
