@@ -881,10 +881,11 @@ float: right;
   display: none;
 }
 #hidden_label_Curiosity{
-  margin-left: -188px;
-      margin-bottom: 11px;
+  margin-right: auto;
+  margin-left: 42px;
       display: none;
       z-index:2;
+  margin-top: -34px;
 }
 
 .hidden_text{
@@ -893,5 +894,8 @@ float: right;
 
 #hidden_label{
   display: none;
-  
+  position:absolute;
+  text-shadow: 1px -2px 2px #07d8f3, -2px -1px 2px red;
+  font-size: 32px;
+  margin-left: ;
 }
