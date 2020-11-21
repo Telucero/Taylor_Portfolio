@@ -263,7 +263,6 @@
           $("#hidden_label_Curiosity").slideToggle();
       });
   });
-
   $(document).ready(function() {
     $("#Magnifier_container").click(function() {
      $("#hidden_textMagnifier").slideToggle();
@@ -272,16 +271,21 @@
 
 
 
-
-
+  $(document).ready(function() {
+      $("#Other_container").hover(function() {
+          $("#hidden_label_Passion").slideToggle();
+      });
+  });
   $(document).ready(function() {
       $("#Other_container").click(function() {
           $("#hidden_textOther").slideToggle();
       });
   });
+
+
   $(document).ready(function() {
-      $("#Data_container").click(function() {
-          $("#hidden_textData").slideToggle();
+      $("#Globe_container").hover(function() {
+          $("#hidden_label_Community").slideToggle();
       });
   });
   $(document).ready(function() {
@@ -291,6 +295,17 @@
   });
 
 
+
+  $(document).ready(function() {
+      $("#Data_container").hover(function() {
+          $("#hidden_label_Data").slideToggle();
+      });
+  });
+  $(document).ready(function() {
+      $("#Data_container").click(function() {
+          $("#hidden_textData").slideToggle();
+      });
+  });
 
 
 </script>
