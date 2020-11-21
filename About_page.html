@@ -148,7 +148,6 @@
     <!-- the Third icon magnifier -->
   <a class= "pop-up">
   <a class = "Text-slide">
-  <!--<div class="expandable" id="nav">-->
   <div id="Magnifier_container">
     <div class="Icon_circle">
       <span class="iconify" data-icon="si-glyph:magnifier" data-inline="false" data-height="100"></span>
@@ -162,11 +161,10 @@
           </div>
         </div>
       </div-->
-    <div class="expandable" id="nav">
     </div>
   </div>
   <div>Curiosity</div>
-  <!--<div class="expandable" id="nav"> -->
+  <div class="expandable" id="nav">
     <span>
       This is a pop-up <!-- Put your text HERE-->
     </span>
@@ -283,15 +281,19 @@
 
 <script>
 
-  $(document).ready(function(){
-    $(".btn1").click(function(){
-      $("p").slideUp();
-    });
-    $(".btn2").click(function(){
-      $("p").slideDown();
-    });
-  });
+function openNav() {
+  document.getElementById("mySidenav").style.width = "275px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+
+document.getElementById('main').addEventListener('click', closeNav);
 
 </script>
 </body>
