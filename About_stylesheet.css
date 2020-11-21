@@ -880,8 +880,9 @@ float: right;
   display: none;
 }
 #hidden_label_Curiosity{
-  display: none;
-
+  margin-left: -188px;
+      margin-bottom: 11px;
+      display: none;
 }
 
 .hidden_text{
