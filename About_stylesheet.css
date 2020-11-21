@@ -883,6 +883,7 @@ float: right;
   margin-left: -188px;
       margin-bottom: 11px;
       display: none;
+      z-index:2;
 }
 
 .hidden_text{
