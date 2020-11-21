@@ -870,10 +870,23 @@ float: right;
 
 }
 
+#hidden_label_Data{
+
+}
+#hidden_label_Passion{
+
+}
+#hidden_label_Community{
+
+}
+#hidden_label_Curiosity{
+
+}
+
 .hidden_text{
   display:none;
 }
 
-.hidden_label{
+#hidden_label{
   display: none;
 }
