@@ -198,6 +198,8 @@ img.Container {
   justify-content: space-evenly;
 }
 
+
+
 .Icon_circle {
   background-color: #3b3b3b;
   border-radius: 50%;
@@ -865,7 +867,7 @@ float: right;
   transition:color 0.25s;
 }
 
-.pop-updiv{
+.pop-up div{
   text-shadow:1px 1px 6px black;
 }
 
@@ -941,4 +943,21 @@ a svg
 .pop-up div
 {
   cursor:pointer;
+}
+
+.expandable {
+  background: #fff;
+  overflow: hidden;
+
+  transition: all .5s ease-in-out;
+  line-height: 0;
+  padding: 0 1em;
+  color: transparent;
+}
+
+.expandable:target {
+  line-height: 1.5;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: black;
 }
