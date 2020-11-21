@@ -871,15 +871,16 @@ float: right;
 }
 
 #hidden_label_Data{
-
+  display: none;
 }
 #hidden_label_Passion{
-
+  display: none;
 }
 #hidden_label_Community{
-
+  display: none;
 }
 #hidden_label_Curiosity{
+  display: none;
 
 }
 
