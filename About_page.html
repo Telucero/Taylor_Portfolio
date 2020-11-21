@@ -259,8 +259,10 @@
 
 
   $(document).ready(function() {
-      $("#Magnifier_container").click(function() {
-          $("#hidden_textMagnifier").slideToggle();
+      $("#Magnifier_container").hover(function() {
+          $(".hidden_label").slideDown(), $(Magnifier_container).click(function() {
+            $("#hidden_textMagnifier").slideToggle();
+          });
       });
   });
 
