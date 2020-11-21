@@ -873,19 +873,22 @@ float: right;
 
 #hidden_label_Data{
   display: none;
+  margin-left: -185px;
 }
 #hidden_label_Passion{
   display: none;
+  margin-left: -158px;
 }
 #hidden_label_Community{
   display: none;
+  margin-left: -181px;
 }
 #hidden_label_Curiosity{
   margin-right: auto;
   margin-left: 42px;
       display: none;
       z-index:2;
-  margin-top: -34px;
+
 }
 
 .hidden_text{
@@ -898,4 +901,5 @@ float: right;
   text-shadow: 1px -2px 2px #07d8f3, -2px -1px 2px red;
   font-size: 32px;
   margin-left: ;
+  margin-top: -34px;
 }
