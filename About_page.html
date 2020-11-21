@@ -56,8 +56,18 @@
 <div id= "main">
   <div class="content">
 
-    <span class ="hidden_text" id= "hidden_textMag"> Mag hidden stuff </span>
-    <span class ="hidden_text"  id = "hidden_textOth"> Other hidden stuff </span>
+    <span class ="hidden_text" id= "hidden_textMagnifier">
+      <h1> Curiosity </h1>
+      Mag hidden stuff </span>
+    <span class ="hidden_text"  id = "hidden_textOther">
+      <h1> Passion </h1>
+      Other hidden stuff </span>
+    <span class ="hidden_text" id= "hidden_textData">
+      <h1> Data </h1>
+      Data hidden stuff </span>
+    <span class ="hidden_text"  id = "hidden_textGlobe">
+      <h1> Community </h1>
+      Community hidden stuff </span>
   <div id="Icon_box">
 
     <!-- the First icon Globe -->
@@ -248,17 +258,26 @@
 <script>
 
   $(document).ready(function() {
-      $("#Magnifier_container").click(function() {
-          $("#hidden_textMag").slideToggle();
+      $("#Magnifier_container").hover(function() {
+          $("#hidden_textMagnifier").slideToggle();
       });
   });
 
   $(document).ready(function() {
-      $("#Other_container").click(function() {
-          $("#hidden_textOth").slideToggle();
+      $("#Other_container").hover(function() {
+          $("#hidden_textOther").slideToggle();
       });
   });
-
+  $(document).ready(function() {
+      $("#Data_container").hover(function() {
+          $("#hidden_textData").slideToggle();
+      });
+  });
+  $(document).ready(function() {
+      $("#Globe_container").hover(function() {
+          $("#hidden_textGlobe").slideToggle();
+      });
+  });
 
 </script>
 </body>
